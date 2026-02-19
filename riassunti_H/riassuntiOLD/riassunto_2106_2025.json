@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2106",
+        "riassunto": "Il Giunta provinciale di Trento ha deliberato il provvedimento n. 2106, approvando i criteri e le modalità per l'assegno di natalità per il terzo figlio, come previsto dall'articolo 8 bis, comma 7 bis della legge provinciale del 2 marzo 2011. Questa iniziativa mira a supportare le famiglie con tre o più figli offrendo loro una forma di assistenza economica. L'Agenzia Provinciale per l'Assistenza e la Previdenza Integrativa è nominata per gestire l'erogazione di queste somme. Il provvedimento si basa sui fondi disponibili nel bilancio dell'Agenzia, e qualsiasi sovvenzione aggiuntiva dovrebbe giustificarsi attraverso il bilancio. Sebbo l'adozione di questo provvedimento, i cittadini hanno diritto a ricorrere alla competente autorità giurisdizionale entro 120 giorni dalla conoscenza del provvedimento, a meno che non emergano vizi inaccordati con la normativa statale. \n\n(Pag 4 di 5)",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2106",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia autonoma di Trento approva con decreto n. 2106 del 19 dicembre 2025, il regolamento per l'erogazione dell'assegno di natalità per il terzo figlio, previsto dall'articolo 8 bis, comma 7 bis della legge provinciale 2 marzo 2011, n. 1 e ss.mm.ii.  Tale provvedimento sancisce, infatti, i criteri e le modalità per la concessione e l'erogazione dell'assegno di natalità per il terzo figlio, finalizzato a sostenere le famiglie con i costi legati all'arrivo di un nuovo figlio. La giunta ha affidato la gestione e l'erogazione del beneficio all'Agenzia provinciale per l'Assistenza e la Previdenza Integrativa, garantendo la copertura degli oneri derivanti dal provvedimento con i fondi stanziati sul bilancio dell'Agenzia.  In caso di vizi sul provvedimento, è possibile ricorrerlo al Presidente della Repubblica entro 120 giorni dalla conoscenza del provvedimento, ma restando ferma la possibilità di adottare le azioni giurisdizionali. L'approvazione di questo regolamento pone la Provincia di Trento al vertice in materia di sostegno alle famiglie, garantendo un diritto fondamentale a tutti i genitori che accolgono un nuovo figlio.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

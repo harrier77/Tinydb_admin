@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1719",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 34.080093936s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 34\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1719",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento approvato dalla Provincia autonoma di Trento ha lo scopo di realizzare un'iniziativa volta a promuovere le opportunità di mobilità all'estero per studenti e diplomati trentini. \n\nL'iniziativa, denominata “M.E.T.A. - Mobilità Europea, Tirocini e Apprendimento”, si inserisce nel Programma Erasmus+ KA1 VET, un programma europeo che mira a favorire l'apprendimento e la crescita professionale dei giovani attraverso esperienze formative in diversi Paesi europei.  \n\nLa Provincia autonoma di Trento ha ottenuto finanziamento europeo per realizzare questo progetto che prevede tirocinio di 4 settimane per gli studenti e di 16 settimane per i diplomati. I partecipanti selezionati avranno l'opportunità di rafforzare le proprie competenze linguistiche e trasversali, acquisendo nuove esperienze lavorative e culturali in contesti internazionali. \n\nL'iniziativa si articola in tre fasi: formazione pre-partenza, tirocinio lavorativo presso aziende e organizzazioni estere e follow-up al rientro, garantendo un percorso formativo completo e di impatto.\n\nL'Avviso di selezione, pubblicato sul sito web della Provincia e su www.vivoscuola.it,  definirà le modalità di partecipazione, i requisiti di ammissibilità e i criteri di selezione dei partecipanti.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

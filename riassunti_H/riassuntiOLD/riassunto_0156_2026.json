@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "0156",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Miglioramento dei Servizi e Trasparenza dell'Amministrazione Provinciale\n\nLa Provincia autonoma di Trento ha approvato il Piano Integrato di Attività e Organizzazione (P.I.A.O.) per il triennio 2026-2028, con l'obiettivo di migliorare la qualità e la trasparenza delle attività amministrative e la qualità dei servizi offerti a cittadini e imprese. Questo piano ha semplificato e riorganizzato i processi interni, anche per garantire un maggiore diritto di accesso, riunendo in un unico atto diverse pianificazioni provinciali e collegando strategie a obiettivi operativi. Particolare attenzione è stata dedicata alla gestione delle risorse umane, con un focus sul lavoro agile e sulla formazione del personale. È stato incluso un Piano per l'Uguaglianza di Genere (Gender Equality Plan) volto a valorizzare le differenze e contrastare i divari di genere all'interno dell'amministrazione, con benefici per i dipendenti e, in specifici casi, per la cittadinanza. Infine, è stato rafforzato il Piano per la prevenzione della corruzione e la trasparenza, semplificando gli adempimenti e introducendo nuove disposizioni di monitoraggio, a seguito di una consultazione pubblica (deliberazione n. 0156 del 06 febbraio 2026).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "156",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia autonoma di Trento ha approvato il Piano integrato di attività e organizzazione (P.I.A.O.) per il triennio 2026-2028. \n\nQuesta iniziativa, resa obbligatoria a livello nazionale, si inserisce in un contesto di rinnovamento e ottimizzazione della gestione amministrativa. L'obiettivo principale è garantire una maggiore qualità dei servizi offerti ai cittadini e alle imprese, semplificando i processi e promuovendo la trasparenza.\n\nIl P.I.A.O.  definisce un'unica strategia per il coordinamento di diversi piani e programmi dell'Ente, superando la frammentazione e garantendo una visione sistemica dell'azione amministrativa. \n\nIl piano è strutturato in cinque sezioni che affrontano temi chiave: \n\n- i dati identificativi della Provincia autonoma di Trento;\n\n- le performance previste, le necessità di personale e formazione e i rischi da prevenire;\n\n- l'organizzazione interna dell'Ente, con particolare attenzione alla gestione del personale e alla formazione;\n\n- il Gender Equality Plan, volto ad eliminare il divario di genere e promuovere l'uguaglianza;\n\n- il Piano per la prevenzione della corruzione e per la trasparenza, con l'obiettivo di rafforzare i meccanismi di controllo e accountability.\n\nLa redazione del P.I.A.O. ha visto il coinvolgimento di diverse figure, come l'Organismo Indipendente di Valutazione delle Attività e dell'Organizzazione (OIV AO), e si è basata su un'ampia consultazione pubblica per garantire un piano realmente efficace e rispondente alle esigenze del territorio.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1712",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.335932784s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 2\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1712",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questo provvedimento della Provincia Autonoma di Trento riguarda l'assegnazione di fondi a Comuni e Comunità per coprire i costi delle retribuzioni incentivanti erogate ai dipendenti per aver partecipato a procedure di gara per lavori pubblici, servizi e forniture nel 2022 e 2023. \n\nL'iniziativa nasce dalla volontà di sostenere gli enti locali nella gestione di queste spese, che sono previste da una normativa specifica che mira a incentivare la partecipazione a gare pubbliche. \n\nIl provvedimento, che si basa su accordi e deliberazioni pregressi, stabilisce il metodo di riparto delle risorse, basato sui costi certificati da ciascun ente locale. \n\nL'importo totale assegnato è di 1.232.466,70 euro e viene erogato in base a rendicontazioni presentate dagli enti beneficiari, garantendo una gestione trasparente e responsabile delle risorse finanziarie.\n\nL'iniziativa rappresenta un esempio di collaborazione tra Provincia e Comuni per garantire un'efficace gestione delle procedure di appalto pubblico, incentivando la concorrenza e la trasparenza nell'ambito delle gare.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

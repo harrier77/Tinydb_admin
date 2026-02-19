@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1644",
+        "riassunto": "Nuovi Investimenti per l'Economia e il Turismo Trentino\n\nLa Provincia autonoma di Trento ha approvato il quarto aggiornamento del Piano triennale 2023-2025, volto a sostenere lo sviluppo dell'economia locale. Attraverso Trentino Sviluppo S.p.a., sono stati destinati complessivamente quasi 493 milioni di euro per interventi mirati agli ambiti produttivo e turistico. Per l'esercizio finanziario 2025, sono stati specificamente assegnati 54 milioni di euro per l'attuazione di nuove iniziative. Il piano ha incluso anche importanti azioni di bonifica e ripristino ambientale di siti, beneficiando in parte di risorse del Piano Nazionale di Ripresa e Resilienza, contribuendo così concretamente alla crescita economica e alla valorizzazione del territorio per i cittadini (deliberazione n. 1644 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1644",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera approva il quarto aggiornamento del Piano triennale 2023-2025 per il Fondo ex articolo 33 della legge provinciale n. 6 del 1999. \n\nIl Piano, elaborato da Trentino Sviluppo S.p.a., si concentra sugli interventi nell'ambito del sistema economico provinciale, in particolare nei settori produttivi e turistici. La delibera assegna risorse finanziarie per un importo complessivo di 492.781.813,83 euro, che verranno utilizzate per finanziare progetti specifici e interventi strategici in linea con gli obiettivi di sviluppo economico del Trentino.  \n\nIl Piano si basa su un'analisi attenta del contesto economico regionale e mira a promuovere la crescita sostenibile del territorio, incentivando l'innovazione, la competitività e la creazione di nuove opportunità occupazionali. \n\nLa delibera evidenzia inoltre l'importanza del rispetto delle normative vigenti, in particolare quelle relative alla gestione finanziaria e alle procedure di finanziamento da parte di enti pubblici e istituti finanziari come la Banca Europea per gli Investimenti (BEI). \n\nInoltre, si sottolinea l'obbligo di trasparenza e partecipazione, garantendo la pubblicazione del Piano e delle relative informazioni sul sito istituzionale della Provincia autonoma di Trento.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

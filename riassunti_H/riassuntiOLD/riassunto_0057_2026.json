@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "0057",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Finanziamento per il Parco Naturale Locale Monte Baldo\n\nLa Provincia ha approvato il programma di interventi per il Parco Naturale Locale Monte Baldo per il triennio 2026-2028. Questo programma, che ha preso avvio il 30 dicembre 2025 e si concluderà il 30 dicembre 2028, mirava alla salvaguardia e alla valorizzazione del territorio e dell'ambiente naturale del Parco. Per la sua attuazione, il Comune di Brentonico, responsabile della gestione, ha ricevuto un finanziamento di 263.000,00 euro, destinato a supportare le azioni previste per la tutela e lo sviluppo sostenibile dell'area (deliberazione n. 0057 del 23 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "57",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Giunta provinciale di Trento ha approvato il Programma degli interventi per il Parco Naturale Locale Monte Baldo per il triennio 2026-2028. Questo programma, che si inserisce nell'ambito di una convenzione di nove anni per la gestione del parco, ha l'obiettivo di tutelare e valorizzare il territorio e l'ambiente naturale del Monte Baldo.\n\nIl programma prevede un finanziamento di 263.000 euro, assegnati al Comune di Brentonico, ente responsabile del parco. Questi fondi serviranno per realizzare diverse attività e interventi mirati alla conservazione e alla valorizzazione del patrimonio naturale e paesaggistico del Monte Baldo. Il programma prevede una rendicontazione dettagliata delle attività svolte e dei fondi utilizzati, da presentare entro 210 giorni dalla scadenza del triennio. \n\nL'approvazione del programma rappresenta un investimento importante per il futuro del Parco Naturale Locale Monte Baldo, garantendo la continuità delle attività di gestione e conservazione di questo prezioso ecosistema.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

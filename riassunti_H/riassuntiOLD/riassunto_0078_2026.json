@@ -1,0 +1,18 @@
+[
+    {
+        "numero_delibera": "0078",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Quantificazione del Fondo per l'Efficienza Amministrativa e la Qualità dei Servizi\n\nLa Provincia autonoma di Trento ha quantificato per il 2026 il Fondo per la riorganizzazione e l'efficienza gestionale (FO.R.E.G.), destinato al personale non dirigenziale del comparto autonomie locali. Questo fondo, pari a 6.254.693,62 Euro, è stato istituito con l'obiettivo di incentivare il raggiungimento degli obiettivi generali dell'ente e dei traguardi specifici delle singole strutture o dei dipendenti, promuovendo così una maggiore efficienza amministrativa e un conseguente miglioramento nella qualità dei servizi offerti ai cittadini. Le risorse sono state suddivise in una \"quota obiettivi generali\", erogata in base alla partecipazione all'ottenimento dei risultati complessivi della Provincia, e una \"quota obiettivi specifici\", legata al raggiungimento di particolari traguardi e all'incremento dell'efficienza gestionale delle strutture. La valutazione del raggiungimento di tali obiettivi, desunta dalle relazioni annuali e dai risultati del controllo di gestione, ha costituito la base per la liquidazione di questi compensi, previsti entro giugno 2027 (deliberazione n. 0078 del 30 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "obi_pol": "politica 1.2.1",
+        "anno_delibera": "2026",
+        "riassunto": "Questa delibera della Giunta Provinciale di Trento ha come scopo principale l'attribuzione di risorse finanziarie per il Fondo per la riorganizzazione e l'efficienza gestionale (FO.R.E.G.) per l'anno 2026. \n\nIl FO.R.E.G., introdotto da un accordo di settore siglato nel 2021, ha come finalità principale incentivare il personale non dirigenziale della Provincia Autonoma di Trento e dei suoi enti strumentali a raggiungere obiettivi specifici e generali.\n\nLa delibera specifica come il fondo sarà diviso in due quote:\n\n* **Quota obiettivi generali**: destinata a premiare il raggiungimento di obiettivi generali dell'ente, come definiti nel Piano Integrato di Attività e Organizzazione (PIAO).  Questa quota è calcolata in base al livello di appartenenza del dipendente e verrà erogata nel mese di giugno 2027.\n* **Quota obiettivi specifici**: destinata a premiare il raggiungimento di obiettivi specifici, individuali o di gruppo, individuati per ogni struttura o reparto.  L'ammontare di questa quota è stabilito con una serie di criteri, tra cui il tipo di attività svolta, l'impegno richiesto e l'efficienza raggiunta.\n\nIl FO.R.E.G. 2026 ammonterà a **6.254.693,62 euro**, incrementando le risorse dedicate a questo fondo rispetto agli anni precedenti. L'ammontare è determinato considerando diversi fattori, tra cui:\n\n* Risorse previste dall'Accordo di settore del 21 ottobre 2021 e dal suo successivo Accordo integrativo del 18 marzo 2024.\n* Risorse aggiuntive derivanti da altri accordi e legislazioni regionali.\n* Risorse residuate da erogazioni precedenti.\n\n\nLa delibera conclude con l'indicazione che la quantificazione precisa delle risorse da destinare alla \"quota obiettivi specifici\" sarà definita in un successivo provvedimento del Dipartimento di Organizzazione, Personale e Innovazione.  \n\nIl FO.R.E.G. si configura come uno strumento importante per stimolare l'efficienza e la produttività del personale della Provincia Autonoma di Trento, incentivando il raggiungimento di obiettivi ambiziosi e l'attuazione di nuove strategie di gestione.",
+        "thinking": "",
+        "performance_t_s": 0.0,
+        "numero_delibera": "78"
+    }
+]

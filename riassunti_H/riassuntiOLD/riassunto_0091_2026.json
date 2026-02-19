@@ -1,0 +1,19 @@
+[
+    {
+        "numero_delibera": "0091",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.079294794s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "selezionato": 0,
+        "anno_delibera": "2026",
+        "obi_pol": "politica 1.1.1 obiettivo 1.1",
+        "riassunto": "La Giunta Provinciale Autonoma di Trento ha approvato il bilancio di previsione per i prossimi tre anni (2026-2028) e il piano triennale di attività dell'Istituto Culturale Ladino/Istitut Cultural Ladin, ente che si occupa della valorizzazione della cultura ladina.\n\nL'Istituto riceverà un finanziamento complessivo di 946.349,46 euro per il 2026, suddivisi in una parte fissa per il funzionamento e in una parte destinata a specifiche iniziative. Le risorse finanziarie sono state determinate sulla base di un'analisi dettagliata delle esigenze dell'istituto e degli indirizzi strategici definiti dalla Provincia autonoma. \n\nQuesta decisione ha lo scopo di sostenere il patrimonio culturale ladino e garantire la continuità delle attività dell'ente, che si occupano di preservare, promuovere e diffondere la lingua, la storia e le tradizioni ladine. Il finanziamento permetterà all'Istituto di sviluppare progetti di educazione linguistica, organizzare eventi culturali, pubblicare testi e promuovere la diffusione della cultura ladina all'interno e al di fuori della provincia.\n\nIl provvedimento della Giunta provinciale, oltre all'approvazione del bilancio e del piano triennale, prevede anche l'assegnazione di risorse per coprire specifici aumenti retributivi e incrementali previsti da accordi contrattuali, come quelli relativi al Fondo Laborfonds e al Fondo Sanifonds, che garantiscono il mantenimento del potere d'acquisto dei dipendenti e il rispetto degli accordi nazionali.",
+        "thinking": "",
+        "performance_t_s": 0.0,
+        "numero_delibera": "91"
+    }
+]

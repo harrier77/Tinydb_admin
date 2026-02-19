@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2090",
+        "riassunto": "La Giunta provinciale ha deliberato sulla revisione di un atto aggiuntivo riguardante l'Impianto di trasporto a fune collettivo tra Trento e il Monte Bondone. Questo provvedimento mira a correggere alcune inesattezze nella Tabella 1 allegata alla precedente delibera, che si riferisce ai finanziamenti e alle riforme degli stanziamenti nel capitolo di conto capitale e nel limite del rapporti finanziari. La decisione è basata sul nuovo Bilancio di previsione per gli esercizi 2026-2028 e su un documento normativo che regolerà i rapporti tra la Provincia autonoma di Trento, Trentino trasporti S.p.A., e Trentino Sviluppo S.p.A. Il riassunto afferma che non vi sono conflitti di interesse tra il Dirigente e il personale coinvolto e che il provvedimento può essere contestato entro 120 giorni dalla conoscenza del provvedimento stesso.\n\n\nIn questo contesto, la Giunta propone di rivedere e riapprovare lo schema di atto aggiuntivo che regolerà i rapporti finanziari e amministrativi tra le istituzioni pubbliche coinvolte. La riforma prevede una modifica del piano finanziario, comprimendo il periodo di rimborso delle rate da nove a dieci anni, con una riduzione annuale del finanziamento. Le rilevazioni contabili e la sottoscrizione dell'atto aggiuntivo saranno attuati dopo l'entrata in vigore del nuovo Bilancio. Il provvedimento è stato approvato con unanimità e può essere contestato entro un periodo di 120 giorni.\n\n\nL'iniziativa ha come obiettivo principale l'adeguamento dei rapporti finanziari e di gestionale in conformità con le ultime modifiche del Bilancio e delle normative, assicurando trasparenza e precisione nei documenti amministrativi.\n\n\n(paragrafo 1/2)",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2090",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera della Provincia Autonoma di Trento riguarda il progetto \"Nuovo Trasporto Trento-Bondone\", un impianto a fune collettivo che collegherà la città di Trento al Monte Bondone. \n\nIl provvedimento ha lo scopo di apportare delle correzioni a un precedente atto, approvato il 5 dicembre 2025, che riguardava la definizione dei rapporti tra Provincia, Trentino trasporti S.p.A. e Trentino Sviluppo S.p.A. nel progetto.  \n\nLe modifiche si riferiscono principalmente a una tabella che illustra gli impegni finanziari per il progetto, la cui versione iniziale presentava degli errori materiali. \n\nLa delibera, quindi, sostituisce la tabella errata con una versione corretta e approva in definitiva lo schema di atto aggiuntivo all'accordo iniziale, che definisce i dettagli della collaborazione tra le tre entità coinvolte.  \n\nL'obiettivo finale è garantire la corretta gestione finanziaria e la realizzazione del \"Nuovo Trasporto Trento-Bondone\", un'opera pubblica di grande valore strategico per la mobilità e lo sviluppo turistico della provincia autonoma.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

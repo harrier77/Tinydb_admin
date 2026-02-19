@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "2104",
+        "riassunto": "Attivata la Carta Argento Trentino per Sostenere gli Anziani\nLa Provincia autonoma di Trento ha attivato, per l'anno 2026, la \"Carta argento Trentino – C.a.T.\", un'iniziativa straordinaria volta a contrastare le situazioni di maggiore difficoltà economica e di povertà. Il progetto ha previsto un sostegno economico una tantum di 3.600,00 Euro, erogato tramite una carta speciale. Questo beneficio è stato destinato ai nuclei familiari già beneficiari della Quota A dell'Assegno Unico Provinciale, nei quali tutti i membri avevano un'età superiore ai 65 anni al 1° gennaio 2026. La carta ha consentito l'acquisto di beni essenziali presso negozi alimentari e farmacie accreditati sul territorio provinciale, con l'obiettivo di migliorare concretamente il potere d'acquisto dei cittadini più anziani (deliberazione n. 2104 del 19 dicembre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2104",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha approvato un nuovo progetto, denominato \"Carta argento Trentino - C.a.T.\", finalizzato a contrastare situazioni di povertà e difficoltà economica in provincia. \n\nIl progetto, sperimentale e temporaneo per l'anno 2026, si rivolge ai nuclei familiari con componenti over 65 che già percepiscono l'Assegno Unico Provinciale (AUP) quota A.\n\nI beneficiari riceveranno una somma unica di 3.600 euro, erogata tramite una carta prepagata che può essere utilizzata esclusivamente presso negozi alimentari e farmacie convenzionate con la Provincia.\n\nL'iniziativa si inserisce nel quadro di una strategia provinciale per ridurre la povertà e migliorare l'inclusione sociale dei cittadini più fragili, puntando su misure innovative per garantire un supporto concreto alle fasce più svantaggiate.\n\nLa Provincia sta ora procedendo all'individuazione dei commercianti che aderiranno al programma e all'organizzazione del sistema informatico necessario per la gestione della carta.  L'obiettivo è garantire un'efficace distribuzione dei fondi e un accesso facilitato ai beni essenziali per i nuclei familiari beneficiari.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

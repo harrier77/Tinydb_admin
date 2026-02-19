@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1688",
+        "riassunto": "Ampliamento e miglioramento dei servizi sociali di bassa soglia\n\nLa Provincia autonoma di Trento ha ridefinito e potenziato gli interventi a bassa soglia destinati alle persone più vulnerabili, concentrandosi sull'accoglienza notturna e sul supporto alle famiglie monogenitoriali. È stato aumentato il contributo per la gestione della Casa Comunitaria integrata \"Casa Maurizio\", che ha continuato a fornire alloggio e sostegno educativo ai nuclei monogenitoriali senza dimora con figli minori, prolungando il servizio fino a fine 2026. Per rispondere alla crescente e stabile domanda, è stato trasformato un dormitorio invernale femminile (Casa Paola) in una struttura permanente con 20 posti letto, garantendo così un'accoglienza continuativa alle donne senza dimora per due anni. Contestualmente, è stato previsto l'allestimento di un nuovo dormitorio invernale femminile per mantenere invariata la capacità durante i mesi più freddi. Sono stati inoltre riconosciuti maggiori costi per garantire migliori condizioni igienico-sanitarie e di sicurezza nei dormitori invernali maschili e sono stati erogati contributi integrativi per interventi straordinari di sanificazione e per le esigenze specifiche dei bambini nei dormitori per il 2025 (deliberazione n. 1688 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1688",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Giunta Provinciale di Trento approva un provvedimento che si propone di ridefinire e aggiornare gli interventi per l'assistenza ai senza dimora, focalizzandosi su tre punti principali:\n\n1. **Miglioramento della gestione dei servizi di accoglienza:**\n    - Trasformazione di un dormitorio femminile stagionale in un dormitorio permanente, garantendo un'accoglienza stabile a un numero maggiore di donne senza casa.\n    - Aumento di posti letto nei dormitori invernali femminili e maschili, per rispondere alle esigenze di maggiore protezione e accoglienza durante i mesi invernali.\n    - Integrazione finanziaria per la gestione dei dormitori invernali, per assicurare standard di igiene e sicurezza adeguati.\n    - Ampliamento della Casa Comunitaria Integrata per nuclei monogenitoriali, con l'obiettivo di offrire un supporto più completo a famiglie in difficoltà.\n\n2. **Sostenibilità delle risorse:**\n    - Definizione di una strategia per la gestione a lungo termine delle risorse dedicate all'assistenza ai senza dimora, con un focus sulla collaborazione con il Terzo settore.\n\n3. **Coinvolgimento delle diverse realtà territoriali:**\n    - Promozione di un'integrazione tra i servizi sociali, le reti di solidarietà e le organizzazioni del Terzo settore, per offrire un'assistenza più efficiente e coordinata.\n\nL'intervento, con un incremento complessivo di spesa di oltre 530.000 euro, si inserisce nel quadro di una politica pubblica che mira a garantire un'assistenza adeguata e sostenibile alle persone più vulnerabili della provincia di Trento.\n\nIl provvedimento, oltre a definire le misure concrete, istituisce un monitoraggio costante della situazione e prevede l'eventuale revisione delle strategie per adattarle alle esigenze in continua evoluzione del fenomeno dell'emergenza abitativa.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

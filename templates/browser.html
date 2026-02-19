@@ -10,6 +10,32 @@
 <!-- item_parent_name: {{ item_parent_name }} -->
 <!-- DEBUG END -->
 
+{% macro render_field_editable(field_name, field_value, field_type, doc_id, table, field_path, is_nested=false) -%}
+{% set is_number = field_value is number %}
+{% set is_long_text = (not is_number) and (field_value|string|length > 150) %}
+<div class="field-editable {% if is_long_text %}field-long-text{% endif %}"
+     data-field-path="{{ field_path }}"
+     data-field-type="{{ 'number' if is_number else 'string' }}"
+     data-doc-id="{{ doc_id }}"
+     data-table="{{ table }}"
+     {% if is_long_text %}data-is-long="true"{% endif %}>
+    {% if is_long_text %}
+    <span class="field-value-display field-value-truncated" onclick="openFullTextPanel('{{ table }}', '{{ doc_id }}', '{{ field_path|e }}', this)">{{ field_value }}</span>
+    <button class="btn-expand" onclick="openFullTextPanel('{{ table }}', '{{ doc_id }}', '{{ field_path|e }}', this)" title="Visualizza testo completo">📝</button>
+    {% else %}
+    <span class="field-value-display">{{ field_value }}</span>
+    {% endif %}
+    <input type="{{ 'number' if is_number else 'text' }}" 
+           class="field-value-input" 
+           value="{{ field_value }}"
+           step="{{ 'any' if is_number and field_value != field_value|int else '1' }}">
+    <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
+    <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
+    <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
+    <span class="save-status"></span>
+</div>
+{%- endmacro %}
+
     <!-- Pannello 1: Lista Documenti della Collezione -->
     {% if current_table %}
     <div class="panel sidebar-panel" id="sidebar-panel" {% if is_array_item %}style="opacity: 0.6; min-width: 260px; width: 260px;"{% endif %}>
@@ -117,22 +143,7 @@
                                         <a href="/browse/{{ current_table }}/doc/{{ current_doc_id }}/field/{{ field_name }}" class="doc-title-inline" style="text-decoration: none; color: inherit;">{{ field_name }}</a>
                                     </div>
                                     <div class="doc-preview">
-                                        {% set is_number = field_value is number %}
-                                        <div class="field-editable" 
-                                             data-field-path="{{ field_name }}"
-                                             data-field-type="{{ 'number' if is_number else 'string' }}"
-                                             data-doc-id="{{ current_doc_id }}"
-                                             data-table="{{ current_table }}">
-                                            <span class="field-value-display">{{ field_value }}</span>
-                                            <input type="{{ 'number' if is_number else 'text' }}" 
-                                                   class="field-value-input" 
-                                                   value="{{ field_value }}"
-                                                   step="{{ 'any' if is_number and field_value != field_value|int else '1' }}">
-                                            <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
-                                            <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
-                                            <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
-                                            <span class="save-status"></span>
-                                        </div>
+                                        {{ render_field_editable(field_name, field_value, field_types.get(field_name, 'simple'), current_doc_id, current_table, field_name) }}
                                     </div>
                                 </div>
                             {% endif %}
@@ -259,22 +270,7 @@
                                             <a href="/browse/{{ current_table }}/doc/{{ field_url_base }}/{{ field_name }}" class="doc-title-inline" style="text-decoration: none; color: inherit;">{{ field_name }}</a>
                                         </div>
                                         <div class="doc-preview">
-                                            {% set is_number = field_value is number %}
-                                            <div class="field-editable"
-                                                 data-field-path="{{ nested_field_path }}"
-                                                 data-field-type="{{ 'number' if is_number else 'string' }}"
-                                                 data-doc-id="{{ root_doc_id }}"
-                                                 data-table="{{ current_table }}">
-                                                <span class="field-value-display">{{ field_value }}</span>
-                                                <input type="{{ 'number' if is_number else 'text' }}"
-                                                       class="field-value-input"
-                                                       value="{{ field_value }}"
-                                                       step="{{ 'any' if is_number and field_value != field_value|int else '1' }}">
-                                                <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
-                                                <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
-                                                <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
-                                                <span class="save-status"></span>
-                                            </div>
+                                            {{ render_field_editable(field_name, field_value, level.field_types.get(field_name, 'simple'), root_doc_id, current_table, nested_field_path, true) }}
                                         </div>
                                     </div>
                                 {% endif %}
@@ -350,22 +346,7 @@
                                                 <span class="doc-id-inline">#{{ loop.index0 }}</span>
                                             </div>
                                             <div class="doc-preview">
-                                                {% set is_number = item is number %}
-                                                <div class="field-editable"
-                                                     data-field-path="{{ array_item_path }}"
-                                                     data-field-type="{{ 'number' if is_number else 'string' }}"
-                                                     data-doc-id="{{ root_doc_id }}"
-                                                     data-table="{{ current_table }}">
-                                                    <span class="field-value-display">{{ item }}</span>
-                                                    <input type="{{ 'number' if is_number else 'text' }}"
-                                                           class="field-value-input"
-                                                           value="{{ item }}"
-                                                           step="{{ 'any' if is_number and item != item|int else '1' }}">
-                                                    <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
-                                                    <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
-                                                    <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
-                                                    <span class="save-status"></span>
-                                                </div>
+                                                {{ render_field_editable(field_name, item, 'string', root_doc_id, current_table, array_item_path) }}
                                             </div>
                                         </div>
                                     {% endif %}
@@ -390,22 +371,7 @@
                                                 <a href="{{ request.path }}/{{ subfield_name }}" class="doc-title-inline" style="text-decoration: none; color: inherit;">{{ subfield_name }}</a>
                                             </div>
                                             <div class="doc-preview">
-                                                {% set is_number = subfield_value is number %}
-                                                <div class="field-editable"
-                                                     data-field-path="{{ object_field_path }}"
-                                                     data-field-type="{{ 'number' if is_number else 'string' }}"
-                                                     data-doc-id="{{ current_doc_id }}"
-                                                     data-table="{{ current_table }}">
-                                                    <span class="field-value-display">{{ subfield_value }}</span>
-                                                    <input type="{{ 'number' if is_number else 'text' }}"
-                                                           class="field-value-input"
-                                                           value="{{ subfield_value }}"
-                                                           step="{{ 'any' if is_number and subfield_value != subfield_value|int else '1' }}">
-                                                    <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
-                                                    <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
-                                                    <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
-                                                    <span class="save-status"></span>
-                                                </div>
+                                                {{ render_field_editable(subfield_name, subfield_value, 'string', current_doc_id, current_table, object_field_path) }}
                                             </div>
                                         </div>
                                     {% else %}
@@ -432,24 +398,7 @@
                         <!-- Campo è un valore semplice - editabile inline -->
                         <div class="field-group">
                             <div class="field-label">Valore</div>
-                            {% set is_number = level.field_value is number %}
-                            <div class="field-editable"
-                                 data-field-path="{{ level.field_name }}"
-                                 data-field-type="{{ 'number' if is_number else 'string' }}"
-                                 data-doc-id="{{ current_doc_id }}"
-                                 data-table="{{ current_table }}"
-                                 style="padding: 16px; background: #f8f9fa; border: 1px solid #dadce0; border-radius: 4px; font-size: 14px;">
-                                <span class="field-value-display">{{ level.field_value }}</span>
-                                <input type="{{ 'number' if is_number else 'text' }}"
-                                       class="field-value-input"
-                                       value="{{ level.field_value }}"
-                                       style="width: 100%; font-size: 14px; padding: 8px;"
-                                       step="{{ 'any' if is_number and level.field_value != level.field_value|int else '1' }}">
-                                <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
-                                <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
-                                <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
-                                <span class="save-status"></span>
-                            </div>
+                            {{ render_field_editable(level.field_name, level.field_value, 'string', current_doc_id, current_table, level.field_name) }}
                         </div>
                     {% endif %}
                     
@@ -582,6 +531,177 @@
         }
 
         .save-status.error {
+            color: #ea4335;
+        }
+
+        /* Stili per campi di testo lunghi */
+        .field-long-text .field-value-truncated {
+            cursor: pointer;
+            color: #1967d2;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .field-long-text .field-value-truncated:hover {
+            color: #1557b0;
+        }
+
+        .field-long-text .btn-expand {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            padding: 2px 4px;
+            border-radius: 4px;
+            transition: all 0.2s;
+            opacity: 0.6;
+            color: #1967d2;
+        }
+
+        .field-long-text .btn-expand:hover {
+            opacity: 1;
+            background-color: #e8f0fe;
+        }
+
+        /* Pannello testo completo */
+        .full-text-panel {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 600px;
+            max-width: 90vw;
+            height: 100vh;
+            background: white;
+            box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+            display: none;
+            flex-direction: column;
+            z-index: 1000;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .full-text-panel.active {
+            display: flex;
+            transform: translateX(0);
+        }
+
+        .full-text-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .full-text-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #dadce0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8f9fa;
+            flex-shrink: 0;
+        }
+
+        .full-text-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #202124;
+        }
+
+        .full-text-field-name {
+            font-size: 12px;
+            color: #5f6368;
+            margin-top: 4px;
+        }
+
+        .full-text-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #5f6368;
+            padding: 4px;
+            line-height: 1;
+        }
+
+        .full-text-close:hover {
+            color: #202124;
+        }
+
+        .full-text-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .full-text-value {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            padding: 12px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            border: 2px solid #dadce0;
+            border-radius: 4px;
+            resize: none;
+        }
+
+        .full-text-value:focus {
+            outline: none;
+            border-color: #4285f4;
+        }
+
+        .full-text-footer {
+            padding: 16px 20px;
+            border-top: 1px solid #dadce0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            background: #f8f9fa;
+            flex-shrink: 0;
+        }
+
+        .full-text-btn {
+            padding: 8px 16px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .full-text-btn.cancel {
+            background: white;
+            border: 1px solid #dadce0;
+            color: #5f6368;
+        }
+
+        .full-text-btn.cancel:hover {
+            background: #f1f3f4;
+        }
+
+        .full-text-btn.save {
+            background: #4285f4;
+            border: none;
+            color: white;
+        }
+
+        .full-text-btn.save:hover {
+            background: #3367d6;
+        }
+
+        .full-text-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-right: auto;
+            font-size: 14px;
+        }
+
+        .full-text-status.success {
+            color: #34a853;
+        }
+
+        .full-text-status.error {
             color: #ea4335;
         }
 
@@ -800,5 +920,127 @@
                 }
             }
         });
+
+        // =====================================================
+        // FUNZIONI PER PANTESTO COMPLETO
+        // =====================================================
+        
+        let currentFullTextData = null;
+
+        function openFullTextPanel(table, docId, fieldPath, element) {
+            const container = element.closest('.field-editable');
+            const display = container.querySelector('.field-value-display');
+            const fullTextValue = display.textContent;
+            
+            currentFullTextData = {
+                table: table,
+                docId: docId,
+                fieldPath: fieldPath,
+                originalValue: fullTextValue
+            };
+            
+            document.getElementById('full-text-field-name').textContent = fieldPath;
+            document.getElementById('full-text-value').value = fullTextValue;
+            document.getElementById('full-text-status').textContent = '';
+            document.getElementById('full-text-status').className = 'full-text-status';
+            document.getElementById('full-text-panel').classList.add('active');
+            document.getElementById('full-text-value').focus();
+        }
+
+        function closeFullTextPanel() {
+            document.getElementById('full-text-panel').classList.remove('active');
+            currentFullTextData = null;
+        }
+
+        async function saveFullText() {
+            if (!currentFullTextData) return;
+            
+            const textarea = document.getElementById('full-text-value');
+            const status = document.getElementById('full-text-status');
+            const value = textarea.value;
+            
+            textarea.disabled = true;
+            status.textContent = '⏳ Salvataggio...';
+            status.className = 'full-text-status';
+            
+            try {
+                const response = await fetch(`/api/table/${currentFullTextData.table}/doc/${currentFullTextData.docId}/update`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        field_path: currentFullTextData.fieldPath,
+                        value: value,
+                        value_type: 'string'
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok && result.success) {
+                    status.textContent = '✓ Salvato';
+                    status.className = 'full-text-status success';
+                    
+                    // Aggiorna il valore nella vista lista
+                    const allEditors = document.querySelectorAll('.field-editable');
+                    for (const editor of allEditors) {
+                        if (editor.dataset.fieldPath === currentFullTextData.fieldPath &&
+                            editor.dataset.docId === currentFullTextData.docId &&
+                            editor.dataset.table === currentFullTextData.table) {
+                            const display = editor.querySelector('.field-value-display');
+                            if (display) {
+                                display.textContent = value;
+                            }
+                            const input = editor.querySelector('.field-value-input');
+                            if (input) {
+                                input.value = value;
+                            }
+                            break;
+                        }
+                    }
+                    
+                    setTimeout(() => {
+                        closeFullTextPanel();
+                    }, 1000);
+                } else {
+                    throw new Error(result.error || 'Errore sconosciuto');
+                }
+            } catch (e) {
+                status.textContent = '❌ ' + e.message;
+                status.className = 'full-text-status error';
+            } finally {
+                textarea.disabled = false;
+            }
+        }
+
+        // Chiudi pannello con Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.getElementById('full-text-panel').classList.contains('active')) {
+                closeFullTextPanel();
+            }
+            if (e.key === 'Enter' && e.ctrlKey && document.getElementById('full-text-panel').classList.contains('active')) {
+                saveFullText();
+            }
+        });
     </script>
+
+    <!-- Pannello per testo completo -->
+    <div id="full-text-panel" class="full-text-panel">
+        <div class="full-text-content">
+            <div class="full-text-header">
+                <div>
+                    <div class="full-text-title">Visualizza/Modifica Testo</div>
+                    <div class="full-text-field-name" id="full-text-field-name"></div>
+                </div>
+                <button class="full-text-close" onclick="closeFullTextPanel()">&times;</button>
+            </div>
+            <div class="full-text-body">
+                <textarea id="full-text-value" class="full-text-value" placeholder="Inserisci il testo..."></textarea>
+            </div>
+            <div class="full-text-footer">
+                <span id="full-text-status" class="full-text-status"></span>
+                <button class="full-text-btn cancel" onclick="closeFullTextPanel()">Annulla</button>
+                <button class="full-text-btn save" onclick="saveFullText()">Salva (Ctrl+Enter)</button>
+            </div>
+        </div>
+    </div>
 {% endblock %}

@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2112",
+        "riassunto": "Il Giunta della Provincia autonoma di Trento ha deliberato il 19 Dicembre 2025 sullo schema di Atto aggiuntivo per il Progetto Bandiera PNC-A.1.3 \"Digitalizzazione della pubblica amministrazione\". Lo scopo di questa iniziativa è implementare ulteriori attività per migliorare la digitalizzazione della pubblica amministrazione locale. La deliberazione delega la Dirigente generale dell'UMST digitalizzazione e reti per sottoscrivere l'atto aggiuntivo, con permesso di modifiche non sostanziali. L'importo totale originariamente destinato al progetto rimane invariato a 19.997.420,00 euro. Le operazioni contabili aggiuntive richiederanno successivamente provvedimenti per l'avvio e la realizzazione delle attività. La decisione, insieme con l'atto aggiuntivo, verrà comunicata al Dipartimento per la trasformazione digitale del Governo. Inoltre, è previsto il diritto di presentare ricorsi giurisdizionali a livello di Tribunale Regionale di giustizia amministrativa di Trento o al Presidente della Repubblica.",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2112",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia autonoma di Trento ha approvato un atto aggiuntivo all'accordo di collaborazione con il Dipartimento per la trasformazione digitale del Governo, volto a rafforzare il progetto \"Digitalizzazione della pubblica amministrazione della Provincia autonoma di Trento\". \n\nQuesto progetto, finanziato dal Piano Nazionale Complementare al PNRR, si prefigge di modernizzare i servizi digitali offerti dalla Provincia e di migliorare l'esperienza dei cittadini. L'atto aggiuntivo approvato permette di ampliare le attività inizialmente previste, consentendo di raggiungere obiettivi ancora più ambiziosi. \n\nLa Giunta provinciale,  riferendosi al valore strategico di questo investimento per il miglioramento dell'efficienza e della trasparenza delle istituzioni locali, ha delegato alla Dirigente generale dell'UMST digitalizzazione e reti la sottoscrizione dell'atto stesso. \n\nL'attuazione delle nuove attività previste dall'atto aggiuntivo, che riguardano l'implementazione di nuove tecnologie e servizi digitali, è subordinata al completamento delle verifiche contabili da parte degli Organi di controllo.  La Provincia, infine, si assicura di trasmettere copia della delibera e dell'atto aggiuntivo al Dipartimento per la trasformazione digitale del Governo, garantendo la piena collaborazione nell'ambito di questo importante progetto di digitalizzazione.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

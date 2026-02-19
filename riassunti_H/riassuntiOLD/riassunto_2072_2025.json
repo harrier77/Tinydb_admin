@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2072",
+        "riassunto": "La Giunta provinciale di Trento ha deliberato di continuare il finanziamento per il Progetto di Sicurezza Urbana del Comune di Trento, attivato in forma sperimentale nel 2016 e consolidato nel 2018. Questo progetto mira a prevenire e presidiare il territorio urbano, grazie ad una Unità anti degrado all'interno del corpo di polizia locale Trento-Bondone. Per l'anno 2025, il Comune di Trento riceverà un finanziamento di 405.000 euro. Questo contributo è concesso sotto la condizione che il Comune presenti una relazione entro il marzo 2026, evidenziando eventuali variazioni rispetto al progetto iniziale. Il finanziamento è gestito tramite Cassa del Trentino e sarà impiegato rispettando le modalità e i criteri stabiliti dalla Giunta. Il provvedimento non richiede il CUP (Codice Unico di Progetto) e può essere contestato entro 120 giorni dalla notifica. \n\nIl progetto, nel suo svolgimento, ha visto attività di prevenzione e contrasto della criminalità, di promozione del decoro urbano, di assistenza a soggetti problematici, come persone senza fissa dimora e richiedenti protezione internazionale, e di supporto alle strutture protette su disposizione della Procura del Tribunale dei Minori. Le risorse sono destinate alla coerenza con il progetto e saranno regolate attraverso la contabilità se le spese diminuiranno rispetto alle stime. La delibera dimostra l'impegno della Provincia nel sostegno alle politiche locali di sicurezza e legalità.",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2072",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "## Il finanziamento per la sicurezza urbana di Trento: Un riepilogo chiaro e conciso\n\nQuesta delibera della Giunta Provinciale Autonoma di Trento riguarda il finanziamento di un progetto di sicurezza urbana a supporto del Comune di Trento.\n\n**Obiettivi principali:**\n\nIl progetto si concentra sulla prevenzione e il presidio del territorio comunale attraverso:\n\n* **La lotta al crimine:** Controllo delle zone critiche, attività antidroga e interventi mirati per contrastare fenomeni criminali.\n* **Il decoro urbano:** Presenza costante per garantire la sicurezza e la convivenza civile, contrastare atti vandalici e fenomeni di degrado.\n* **La tutela dei cittadini:** Supporto ai soggetti vulnerabili e alle famiglie in difficoltà, collaborazione con servizi sociali per affrontare problematiche legate alla marginalità.\n\n**Stato attuale del progetto:**\n\nIl progetto, nato in forma sperimentale nel 2016, è stato consolidato nel 2018. \n\nDal 2019, la Giunta Provinciale ha stabilito un finanziamento annuo di 405.000 euro per il suo mantenimento.\n\n**Contenuto della delibera:**\n\n- Conferma del finanziamento per l'anno 2024 (l'ammontare di euro 405.000 è stato confermato poiché il progetto è stato svolto secondo quanto previsto).\n- Assegnazione di euro 405.000 per l'anno 2025 a favore del Comune di Trento.\n- Richiesta al Comune di Trento di presentare entro marzo 2026 una relazione sull'andamento del progetto nel 2025, con eventuali variazioni rispetto al progetto iniziale.\n- Definizione delle modalità di erogazione delle risorse tramite Cassa del Trentino S.p.A.\n\n**Valore pubblico:**\n\nQuesto finanziamento contribuisce significativamente al miglioramento della sicurezza urbana di Trento, offrendo un presidio costante per la prevenzione del crimine e la tutela dei cittadini.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

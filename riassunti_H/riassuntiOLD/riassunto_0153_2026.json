@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "0153",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Potenziato il Finanziamento per l'Irrigazione Agricola Provinciale\n\nLa Provincia autonoma di Trento ha stanziato fondi aggiuntivi per il bando 2025, garantendo il finanziamento di ulteriori progetti a favore delle iniziative irrigue. Questa decisione ha permesso di completare la copertura economica per interventi proposti da Consorzi di miglioramento fondiario, irrigui e di bonifica, essenziali per una gestione più efficiente delle risorse idriche in agricoltura e per il sostegno all'economia del settore. Inizialmente, cinque progetti erano stati finanziati per oltre 17 milioni di euro. Tuttavia, altre cinque domande, pur essendo risultate idonee e rientrando in graduatoria, non avevano ricevuto copertura finanziaria a causa di risorse insufficienti. Con l'assegnazione di ulteriori 15.755.385,02 euro dal bilancio 2026, tutte le domande rimaste in sospeso sono state ora ammesse al finanziamento, portando a compimento tutti i procedimenti idonei e rafforzando significativamente le infrastrutture irrigue del territorio (deliberazione n. 0153 del 06 febbraio 2026).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "153",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera della Giunta provinciale di Trento approva un incremento di finanziamenti per un bando volto a sostenere progetti di irrigazione. \n\nIl bando, introdotto nel 2025, ha come obiettivo principale l'ammodernamento delle infrastrutture irrigue e la gestione più efficiente delle risorse idriche in agricoltura. \n\nNel 2025, il bando ha assegnato finanziamenti a 5 progetti tra i più qualificati, ma ha dovuto interrompere il finanziamento di altri 5 progetti per mancanza di risorse. \n\nCon questa deliberazione, la Giunta provinciale riconosce l'importanza strategica del sostegno alle infrastrutture irrigue per l'agricoltura locale e decide di integrare il finanziamento del bando con risorse aggiuntive provenienti dal bilancio 2026.\n\nQuesto provvedimento consentirà di completare il finanziamento di tutti i progetti inclusi nella graduatoria, portando a termine il processo di ammodernamento e ottimizzazione delle infrastrutture irrigue a beneficio dell'intera filiera agroalimentare della provincia.\n\nL'iniziativa si inserisce nel quadro di una politica provinciale finalizzata a migliorare la sostenibilità e la redditività dell'agricoltura locale, contribuendo al benessere economico e ambientale della comunità.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

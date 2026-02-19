@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1701",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.181352032s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 48\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1701",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha adottato un provvedimento per il finanziamento di manifestazioni turistiche organizzate dalle Associazioni Pro Loco del Trentino.\n\nIl provvedimento si inserisce nel quadro più ampio della legge provinciale 2020 che promuove il turismo come risorsa fondamentale per lo sviluppo economico e sociale della regione.\n\nSpecificamente, la legge prevede il finanziamento di iniziative volte a valorizzare il patrimonio culturale, storico e naturale del Trentino, tra cui manifestazioni a carattere sovralocale che, oltre a richiamare un pubblico vasto e diffuso, siano caratterizzate da unicità e tipicità legate alla tradizione locale.\n\nDopo aver analizzato le richieste pervenute, la Giunta provinciale ha selezionato dodici manifestazioni ritenute rispondenti ai criteri di ammissibilità, destinando un totale di 187.400 euro per il loro finanziamento.\n\nLe manifestazioni finanziate spaziano da mercatini di Natale a sagre tradizionali, passando per festival di musica e cultura, tutte con l'obiettivo di promuovere il Trentino come destinazione turistica di qualità e attrattiva.\n\n\nIl provvedimento dimostra l'impegno della Provincia Autonoma di Trento nel sostenere il tessuto associativo locale e nel valorizzare il patrimonio culturale e turistico della regione, contribuendo allo sviluppo economico sostenibile del territorio.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

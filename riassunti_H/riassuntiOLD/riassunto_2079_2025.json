@@ -1,0 +1,40 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2079",
+        "riassunto": "La Giunta provinciale delibera sulla ripartizione delle risorse del Fondo perequativo 2025 e del Fondo per l'attività istituzionale per la revisione dell'ordinamento professionale e l'incremento delle retribuzioni e dei benefit presso i Comuni e le Comunità della Provincia autonoma di Trento. La deliberazione si fonda su criteri di riparto basati sul numero di personale in servizio e sull'incidenza della spesa del personale, derivanti dai dati ISP AT per il triennio 2021-2023.\n\nPer i Comuni, le risorse sono ripartite tra diverse quote: revisione dell'ordinamento professionale, trattenimento del personale, contribuzione Laborfonds e progressioni economiche. I Comuni di varie classi e dimensioni ricevono quote differenziate, garantendo una ripartizione equa basata su criteri quantitativi.\n\nLe Comunità, analogamente, sono destinatarie di quote specifiche per le stesse finalità.\n\nInoltre, si prende atto delle quote aggiuntive destinate ai segretari comunali, considerando specifiche esigenze di incremento retributivo.\n\nL'importo totale delle risorse assegnate è Euro 14.382.937,00, con Euro 6.000.000,00 già impegnati. Si impegna sulle prenotazioni fondi per completare la somma e si delega Cassa del Trentino S.p.A. per l'erogazione delle somme.\n\nIl provvedimento si redige conformemente alla legge locale sulle finanze e all'adesione al Protocollo d'intesa in materia di finanza locale per il 2025. Attuazione prevista attraverso deliberazioni della Giunta provinciale.\n\nIl provvedimento, che si intende impiegare entro un periodo di 60 giorni per eventuali ricorsi, prevede una riproposizione delle assegnazioni relative agli incrementi retributivi dal primo gennaio 2024.\n\nLa deliberazione si conclude con una precisazione sulla non necessità di acquisire il CUP (Codice Unico di Progetto degli investimenti pubblici) per questo tipo di spesa.\n\nIl provvedimento è attuato in attuazione delle norme che disciplinano l'amministrazione provinciale e le relative regole di comportamento, assicurando trasparenza e legalità nella gestione delle risorse.\n\n(Riferimenti alle deliberazioni di Giunta provinciale e ad altri atti citati sono integrali del documento ma non riportati nel riassunto.)",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "selezionato": 0,
+        "anno_delibera": "2025",
+        "obi_pol": "politica 1.1.4 obiettivo 1.1",
+        "riassunto": "Il provvedimento della Giunta Provinciale Autonoma di Trento n. 2079, del 19 dicembre 2025, approva il riparto di risorse finanziarie per complessivi 14.382.937 euro tra i Comuni e le Comunità della provincia.\n\nL'iniziativa si inserisce nel quadro di due fondi principali: il Fondo perequativo, stabilito dalla legge provinciale 36/1993, e il Fondo per l'attività istituzionale, istituito dalla legge provinciale 7/1977. \n\nQuesti fondi sono destinati a finanziare diverse esigenze cruciali per il personale dei Comuni e delle Comunità trentine, tra cui:\n\n* **Revisione dell'ordinamento professionale:** 6.000.000 euro sono assegnati per rivedere le mansioni e le retribuzioni del personale non dirigenziale.\n* **Trattenimento del personale:** 2.833.300 euro sono destinati a garantire il mantenimento del personale nei Comuni e nelle Comunità. \n* **Incremento della quota datore di lavoro per i fondi Laborfonds:** 1.172.153,50 euro sono destinati ad incrementare i fondi destinati a fornire supporto ai dipendenti in caso di malattia o infortunio.\n* **Progressioni economiche:** 4.910.000 euro sono assegnati per incrementare le retribuzioni del personale in base all'anzianità di servizio e alla posizione ricoperta.\n\nI finanziamenti sono distribuiti in modo equo tra i Comuni e le Comunità in base a criteri specifici, che tengono conto del numero di personale, dell'incidenza della spesa per il personale e del tipo di servizio fornito.\n\nQuesto provvedimento rappresenta un investimento importante per la qualità del lavoro e le condizioni di servizio del personale dei Comuni e delle Comunità trentine, contribuendo a garantire la stabilità e l'efficienza del sistema di servizi locali.",
+        "thinking": "",
+        "performance_t_s": 0.0,
+        "numero_delibera": "2079"
+    },
+    {
+        "nome_modello_ai": "utente",
+        "obi_pol": "1.1.4",
+        "anno_delibera": "2025",
+        "selezionato": 0,
+        "testo_modificato": "Il provvedimento della Giunta Provinciale Autonoma di Trento n. 2079, del 19 dicembre 2025, approva il riparto di risorse finanziarie per complessivi 14.382.937 euro tra i Comuni e le Comunità della provincia. L'iniziativa si inserisce nel quadro di due fondi principali: il Fondo perequativo, stabilito dalla legge provinciale 36/1993, e il Fondo per l'attività istituzionale, istituito dalla legge provinciale 7/1977. Questi fondi sono destinati a finanziare diverse esigenze cruciali per il personale dei Comuni e delle Comunità trentine, tra cui: * **Revisione dell'ordinamento professionale:** 6.000.000 euro sono assegnati per rivedere le mansioni e le retribuzioni del personale non dirigenziale. * **Trattenimento del personale:** 2.833.300 euro sono destinati a garantire il mantenimento del personale nei Comuni e nelle Comunità. * **Incremento della quota datore di lavoro per i fondi Laborfonds:** 1.172.153,50 euro sono destinati ad incrementare i fondi destinati a fornire supporto ai dipendenti in caso di malattia o infortunio. * **Progressioni economiche:** 4.910.000 euro sono assegnati per incrementare le retribuzioni del personale in base all'anzianità di servizio e alla posizione ricoperta. I finanziamenti sono distribuiti in modo equo tra i Comuni e le Comunità in base a criteri specifici, che tengono conto del numero di personale, dell'incidenza della spesa per il personale e del tipo di servizio fornito. Questo provvedimento rappresenta un investimento importante per la qualità del lavoro e le condizioni di servizio del personale dei Comuni e delle Comunità trentine, contribuendo a garantire la stabilità e l'efficienza del sistema di servizi locali (deliberazione n. 2079 del 14 dicembre 2025).",
+        "fonte_ai": "paolo.folgarait@provincia.tn.it",
+        "numero_delibera": "2079",
+        "autore_modifica": "paolo.folgarait@provincia.tn.it"
+    },
+    {
+        "testo_modificato": "Con apposito provvedimento n. 2079, del 19 dicembre 2025, è stato approvato il riparto di risorse finanziarie per complessivi 14,3 milioni di euro tra i Comuni e le Comunità della provincia. L'iniziativa si inserisce nel quadro di due fondi principali: il Fondo perequativo, stabilito dalla legge provinciale 36/1993, e il Fondo per l'attività istituzionale, istituito dalla legge provinciale 7/1977. I finanziamenti sono distribuiti in modo equo tra i Comuni e le Comunità in base a criteri specifici, che tengono conto del numero di personale, dell'incidenza della spesa per il personale e del tipo di servizio fornito. Questo provvedimento rappresenta un investimento importante per la qualità del lavoro e le condizioni di servizio del personale dei Comuni e delle Comunità trentine, contribuendo a garantire la stabilità e l'efficienza del sistema di servizi locali (deliberazione n. 2079 del 14 dicembre 2025).",
+        "numero_delibera": "2079",
+        "anno_delibera": "2025",
+        "obi_pol": "1.1.4",
+        "autore_modifica": "paolo.folgarait@provincia.tn.it",
+        "fonte_ai": "paolo.folgarait@provincia.tn.it",
+        "nome_modello_ai": "utente",
+        "selezionato": 1
+    }
+]

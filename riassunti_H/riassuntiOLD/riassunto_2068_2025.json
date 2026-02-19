@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "2068",
+        "riassunto": "Avviata la Sperimentazione di Intelligenza Artificiale a Supporto della Sanità Territoriale\n\nLa Provincia autonoma di Trento ha aderito alla fase di sperimentazione di una Piattaforma di Intelligenza Artificiale per l'assistenza primaria, in linea con gli interventi previsti dal Piano Nazionale di Ripresa e Resilienza. Questa iniziativa mirava a implementare uno strumento di supporto per i medici e gli altri professionisti sanitari nelle attività di diagnosi, cura, gestione delle patologie croniche e promozione della salute, con l'obiettivo di migliorare la qualità dell'assistenza e facilitare l'accesso dei cittadini ai servizi sanitari. La sperimentazione, della durata di dodici mesi a partire da gennaio 2026, ha coinvolto in modo volontario almeno 1.500 medici di assistenza primaria, ai quali è stata offerta una formazione continua. L'Azienda provinciale per i servizi sanitari di Trento ha gestito il coinvolgimento dei professionisti. L'intera operazione non ha comportato oneri per il bilancio provinciale, poiché i costi sono stati interamente sostenuti dall'Agenzia Nazionale per i Servizi Sanitari Regionali (deliberazione n. 2068 del 19 dicembre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2068",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera riguarda l'adesione della Provincia autonoma di Trento a un importante progetto nazionale legato all'innovazione del sistema sanitario. \n\nIl Piano Nazionale di Ripresa e Resilienza (PNRR) prevede l'utilizzo di fondi per la realizzazione di una Piattaforma di Intelligenza Artificiale (AI) a supporto dell'assistenza primaria. L'obiettivo di questa piattaforma è supportare medici e altri professionisti sanitari nelle attività di diagnosi, cura e prevenzione, migliorando l'efficienza e la qualità delle cure offerte ai pazienti.\n\nLa Provincia autonoma di Trento ha aderito a questa iniziativa, in collaborazione con l'Agenzia Nazionale per i Servizi Sanitari Regionali (Agenas), per partecipare alla fase di sperimentazione della piattaforma. \n\nLa sperimentazione coinvolgerà circa 1.500 medici di medicina generale della provincia, che verranno formati per utilizzare la piattaforma. L'Agenas si occuperà della realizzazione, gestione e manutenzione della piattaforma, garantendo il funzionamento e l'aggiornamento costante del sistema. \n\nLa partecipazione alla sperimentazione non comporrà alcun onere per il bilancio provinciale, in quanto i costi saranno entirely coperti dal PNRR. \n\nQuesta iniziativa rappresenta un'opportunità per la sanità della provincia autonoma di Trento di avvicinarsi all'innovazione tecnologica, introducendo strumenti digitali che possono migliorare la cura dei cittadini e ottimizzare le risorse dedicate all'assistenza sanitaria.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

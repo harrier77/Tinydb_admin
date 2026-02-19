@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "2132",
+        "riassunto": "Aumentata l'offerta di alloggi pubblici ristrutturati\n\nLa Provincia autonoma di Trento ha promosso un importante accordo per riqualificare l'edilizia residenziale pubblica, mirato a rendere disponibili nuove abitazioni per i cittadini. Sono stati stanziati complessivamente 5.585.000,00 euro, utilizzando fondi statali residui e risorse provinciali, per la ristrutturazione di circa 145 alloggi pubblici attualmente sfitti. Questo intervento ha permesso di avviare lavori di recupero in diverse aree della Provincia, tra cui Trento (nelle zone Torri, Centro-Sud e Centro-Nord), Rovereto, Arco e Riva del Garda, oltre ad altri comuni con elevata tensione abitativa. L'obiettivo principale è stato ridurre il numero di abitazioni non utilizzate e reintrodurle nel circuito locativo, aumentando l'offerta di alloggi a canone sostenibile. La società ITEA S.p.A. ha realizzato gli interventi, contribuendo a garantire il diritto alla casa accessibile a tutta la popolazione, con un focus sull'incremento dell'offerta abitativa per le fasce più deboli (deliberazione n. 2132 del 19 dicembre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2132",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il documento descrive un Accordo di Programma tra la Provincia autonoma di Trento e ITEA S.p.A. per il riutilizzo di risorse provenienti da programmi di edilizia abitativa statali (PNEA e PRUACS)  per la ristrutturazione di alloggi di edilizia residenziale pubblica di risulta (sfitti) nella provincia di Trento, per un importo complessivo di 5.585.000 euro. \n\nIl testo fornisce dettagli sui finanziamenti statali e provinciali, i codici CUP, i termini di esecuzione degli interventi e le procedure di approvazione e trasparenza. \n\n\nEcco alcuni punti chiave:\n\n* **Oggetto dell'Accordo di Programma:**\n    * Ristrutturzione e riqualifica di 5 lotti di alloggi di edilizia residenziale pubblica di risulta (sfitti) nella provincia di Trento.\n\n* **Finanziamenti:**\n    * 5.585.000 euro provenienti da:\n        * Residuoi di programmi statali PNEA e PRUACS\n        * Finanziamenti provinciali\n\n* **Importo per ogni intervento:**\n\n    * 1.184.222,00 euro per gli interventi a cura ITEA S.P.A.\n\n* **Suddivisione dei finanziamenti:**\n\n    * 2.088.836,48 euro (finanziamenti statali)\n    * 3.496.163,52 euro (finanziamenti provinciali)\n\n* **Procedure:**\n\n    * Il provvedimento riassume le procedure di approvazione e gestione degli interventi, come l'inserimento di informazioni e la  verifica dell'esigibilità della spesa.\n    * La sottoscrizione dell'Accordo di programma è stata delegata alla Dirigente del Servizio coesione territoriale, politiche abitative, valorizzazione del capitale sociale trentino all'estero.\n    * Il testo include la possibilità di variazioni di importo, in base a determinazione del Dirigente competente.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

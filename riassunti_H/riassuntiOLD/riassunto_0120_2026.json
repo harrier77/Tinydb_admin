@@ -1,0 +1,37 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2026",
+        "numero_delibera": "0120",
+        "riassunto": "Impegno finanziario per il Villaggio Olimpico di Predazzo in vista delle Olimpiadi 2026\n\nIn vista delle Olimpiadi invernali Milano Cortina 2026, la Provincia autonoma di Trento ha destinato nuove risorse e riorganizzato quelle già previste per la realizzazione del Villaggio Olimpico di Predazzo, situato presso la Guardia di Finanza. Questo intervento ha permesso di trasferire ulteriori fondi pari a 500.000,00 euro, allocati al bilancio provinciale. Le modifiche e la rimodulazione delle risorse miravano ad assicurare l'efficiente avanzamento dei lavori per questa struttura fondamentale, che accoglierà parte degli atleti e del personale coinvolto nei Giochi. L'impegno ha contribuito alla preparazione delle infrastrutture necessarie per l'evento sportivo internazionale (deliberazione n. 0120 del 30 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-flash",
+        "obi_pol": "8.2.1.1",
+        "anno_delibera": "2026",
+        "selezionato": 0,
+        "riassunto": "Per modificare la deliberazione della Giunta provinciale n. 2086 del 19 dicembre 2025, la Provincia autonoma di Trento ha deciso di aggiornare lo schema di atto aggiuntivo e integrativo alla convenzione del 29 novembre 2023. Questa modifica riguarda il trasferimento ulteriore di 500.000 euro e la rimodulazione delle risorse dell'opera pubblica \"Villaggio Olimpico Predazzo presso la Guardia di Finanza\" a Predazzo, come previsto dal Piano complessivo delle opere olimpiche approvato dal Decreto del Presidente della Giunta Civile (d.P.C.M. 8 settembre 2023). \n\nLa decisione di trasferire queste risorse e aggiustarne l'allocazione mira a garantire che il bilancio provinciale per l'esercizio finanziario 2025 rifletta accuratamente queste modifiche. Questo provvedimento garantisce che il capitolo di entrata 347210 del bilancio provinciale sia imputato con l'importo specificato. \n\nQuesto atto deliberativo segue una convocazione degli assessori e si basa su motivazioni dettagliate che non sono riportate qui. La delibera si inserisce nel contesto più ampio delle attività di pianificazione e gestione delle Olimpiadi invernali Milano Cortina 2026 e riflette un impegno del Governo provinciale a mantenere il controllo finanziario e la gestione dei progetti correlati.",
+        "thinking": "",
+        "performance_t_s": 0,
+        "numero_delibera": "120"
+    },
+    {
+        "performance_t_s": 0,
+        "nome_modello_ai": "gemini-pro",
+        "anno_delibera": "2026",
+        "numero_delibera": "120",
+        "riassunto": "Questa delibera della Provincia autonoma di Trento riguarda il finanziamento del \"Villaggio Olimpico Predazzo presso la Guardia di Finanza\", un progetto legato alle Olimpiadi Invernali Milano Cortina 2026.\n\nIl provvedimento modifica una precedente delibera che approvava un secondo atto aggiuntivo alla convenzione tra la Provincia e la Società \"Infrastrutture Milano Cortina 2020-2026 S.p.A.\". \n\nL'obiettivo è quello di trasferire ulteriori risorse, pari a 500.000 euro, destinate all'opera di realizzazione del villaggio olimpico a Predazzo, rientrante nel Piano complessivo delle opere approvato nel settembre 2023. \n\nLa modifica al precedente atto aggiuntivo permette di riallocare finanziamenti e garantire la corretta esecuzione del progetto, contribuendo così alla realizzazione delle infrastrutture necessarie per le Olimpiadi Invernali del 2026.",
+        "thinking": ""
+    },
+    {
+        "testo_modificato": "Per modificare la deliberazione della Giunta provinciale n. 2086 del 19 dicembre 2025, la Provincia autonoma di Trento ha deciso di aggiornare lo schema di atto aggiuntivo e integrativo alla convenzione del 29 novembre 2023. Questa modifica riguarda il trasferimento ulteriore di 500.000 euro e la rimodulazione delle risorse dell'opera pubblica \"Villaggio Olimpico Predazzo presso la Guardia di Finanza\" a Predazzo, come previsto dal Piano complessivo delle opere olimpiche approvato dal Decreto del Presidente della Giunta Civile (d.P.C.M. 8 settembre 2023). La decisione di trasferire queste risorse e aggiustarne l'allocazione mira a garantire che il bilancio provinciale per l'esercizio finanziario 2025 rifletta accuratamente queste modifiche. Questo provvedimento garantisce che il capitolo di entrata 347210 del bilancio provinciale sia imputato con l'importo specificato. Questo atto deliberativo segue una convocazione degli assessori e si basa su motivazioni dettagliate che non sono riportate qui. La delibera si inserisce nel contesto più ampio delle attività di pianificazione e gestione delle Olimpiadi invernali Milano Cortina 2026 e riflette un impegno del Governo provinciale a mantenere il controllo finanziario e la gestione dei progetti correlati. (Alice)",
+        "numero_delibera": "0120",
+        "anno_delibera": "2026",
+        "obi_pol": "8.2.1",
+        "autore_modifica": "paolo.rauzi@provincia.tn.it",
+        "fonte_ai": "paolo.rauzi@provincia.tn.it",
+        "nome_modello_ai": "utente",
+        "selezionato": 1
+    }
+]

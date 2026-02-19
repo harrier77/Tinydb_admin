@@ -1,0 +1,19 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "selezionato": 1,
+        "anno_delibera": "2026",
+        "obi_pol": "politica 1.1.1.",
+        "riassunto": "Finanziamento per l'Istituto Mòcheno/Bersntoler Kulturinstitut\n\nLa Provincia autonoma di Trento ha approvato il bilancio e il piano triennale di attività dell'Istituto Mòcheno/Bersntoler Kulturinstitut per il periodo 2026-2028. Per l'anno 2026, è stato destinato un contributo complessivo di 534.364,72 euro. Questo finanziamento ha garantito le spese di funzionamento dell'Istituto e ha coperto i costi del personale, permettendo così di proseguire le iniziative di tutela e valorizzazione del patrimonio culturale e linguistico delle comunità mòchena e bersntoler. L'intervento ha assicurato la continuità delle attività dell'Istituto a beneficio dell'intera provincia (deliberazione n. 0136 del 06 febbraio 2026).",
+        "thinking": "",
+        "numero_delibera": "0136"
+    },
+    {
+        "numero_delibera": "136",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Giunta Provinciale di Trento ha approvato il bilancio di previsione 2026-2028 e il piano triennale di attività dell'Istituto Mòcheno/Bersntoler Kulturinstitut, un ente dedicato alla cultura e all'educazione della comunità locale. \n\nL'Istituto svolge un ruolo importante nella conservazione e diffusione della cultura locale, offrendo servizi e attività che valorizzano le tradizioni e le lingue minoritarie della zona. \n\nLa Giunta ha assegnato all'Istituto un finanziamento di oltre mezzo milione di euro per l'anno 2026, per coprire le spese operative, gli incrementi retributivi del personale, le progressioni economiche e altri oneri previsti dal contratto collettivo di lavoro. \n\nQuesto impegno economico dimostra il sostegno della Provincia Autonoma di Trento all'Istituto Mòcheno/Bersntoler Kulturinstitut, riconoscendo la sua importanza nella valorizzazione del patrimonio culturale locale e nella promozione del benessere sociale della comunità.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

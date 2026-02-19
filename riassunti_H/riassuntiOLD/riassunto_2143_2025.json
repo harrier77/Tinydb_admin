@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2143",
+        "riassunto": "L'Assessorato provinciale ha approvato un atto aggiuntivo al protocollo di intesa tra la Provincia autonoma di Trento, il Comune di Rovereto, e l'Azienda provinciale per i servizi sanitari, finalizzato al miglioramento sismico dell'ala Nord-ovest dell'ospedale RSA Vannetti, e alla realizzazione di un polo dedicato alla salute mentale. Questo intervento fa parte del Piano Nazionale di Ripresa e Resilienza (PNRR) e del Fondo complementare (PNC) e rientra nelle iniziative della Missione 6 per l'edilizia sanitaria.\n\nIn risposta a una necessità di trasferire gli ospiti dell'ala durante i lavori di miglioramento sismico, il protocollo prevede il trasferimento temporaneo di 49 posti letto presso una struttura di proprietà dell'Azienda provinciale (Casa Albergo Vinotti). Questo trasferimento richiede una fase di adeguamento per rendere l'immobile funzionante come riformatorio. Il costo aggiuntivo per i lavori e l'adempimento della gestione è stato coperto dai fondi del PNRR/PNC.\n\nQuesto provvedimento mira a garantire un'attuazione efficiente dei lavori di miglioramento sismico per ridurre l'impatto sulle operazioni dell'ospedale. È stato garantito l'assenso dell'Assessore alla salute e delle politiche sociali per coprire gli oneri finanziari derivanti dal protocollo. Il documento è ora destinato ai rispettivi enti per gli adempimenti successivi.",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2143",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questo provvedimento riguarda il miglioramento sismico dell'ala Nord-ovest della RSA Vannetti a Rovereto, progetto finanziato dal Piano Nazionale di Ripresa e Resilienza (PNRR) e dal Fondo complementare (PNC). \n\nIl provvedimento approva un atto aggiuntivo al protocollo di intesa tra la Provincia autonoma di Trento, il Comune di Rovereto e l'Azienda provinciale per i servizi sanitari (APSS). \n\nTale atto aggiuntivo è necessario per gestire il trasferimento temporaneo di alcuni ospiti della RSA Vannetti in un'altra struttura, la \"Casa Albergo Vinotti\" di Nomi, durante i lavori di miglioramento sismico.  Questa soluzione, che ha ricevuto il consenso dell'Assessore alla Salute, politiche sociali e cooperazione, ha l'obiettivo di garantire la prosecuzione efficace dei lavori e di ridurre l'impatto sulla funzionalità della RSA.\n\nInoltre, il provvedimento autorizza l'utilizzo di fondi per coprire i costi del trasferimento e dell'adeguamento della \"Casa Albergo Vinotti\", nonché per la fase progettuale successiva al miglioramento sismico, che prevede la realizzazione di un polo dedicato alla salute mentale.\n\nIn sintesi, questo provvedimento rappresenta un passo fondamentale per il miglioramento e la sicurezza dell'RSA Vannetti, garantendo contemporaneamente un'efficace gestione del processo e il benessere dei pazienti.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

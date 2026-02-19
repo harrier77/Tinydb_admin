@@ -1,0 +1,19 @@
+[
+    {
+        "numero_delibera": "0037",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Ampliamento delle Opportunità di Tirocinio per gli Studenti Universitari\n\nLa Provincia autonoma di Trento ha approvato una convenzione con la Libera Università di Bolzano per lo svolgimento di tirocini formativi e di orientamento. Questa iniziativa ha consentito agli studenti, inclusi numerosi residenti trentini, di acquisire nuove competenze e di maturare esperienza diretta nel settore lavorativo all'interno delle strutture provinciali. L'accordo si è rivelato particolarmente utile per valorizzare percorsi di studio specialistici non offerti dall'Università di Trento, portando nuove conoscenze e risorse aggiornate all'amministrazione provinciale e promuovendo il dialogo strategico tra il mondo accademico e quello del lavoro. I tirocini sono stati svolti a titolo gratuito, senza alcun onere per il bilancio provinciale, a beneficio dello sviluppo economico, sociale e culturale del territorio (deliberazione n. 0037 del 23 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "selezionato": 0,
+        "anno_delibera": "2026",
+        "obi_pol": "politica 1.2.1",
+        "riassunto": "La Giunta Provinciale di Trento ha approvato un nuovo schema di convenzione con la Libera Università di Bolzano per la realizzazione di tirocini formativi e di orientamento per studenti universitari.\n\nQuesta decisione, che rinnova un accordo precedente, nasce dall'esigenza di ampliare le opportunità di stage per i giovani studenti trentini, considerando che la Libera Università di Bolzano offre corsi di laurea e master specifici che non sono disponibili nell'Università degli studi di Trento.\n\nLo scopo principale di questa collaborazione è quello di favorire l'inserimento dei neolaureati nel mondo del lavoro, offrendo loro l'opportunità di acquisire nuove competenze pratiche e di confrontarsi con realtà lavorative diverse.\n\nLa convenzione prevede che i tirocini siano svolti presso le Strutture provinciali a titolo gratuito, senza alcun onere per il bilancio provinciale. L'obiettivo è quello di creare un sistema di scambio reciproco: gli studenti apportano nuove conoscenze e competenze alle Strutture provinciali, mentre le Strutture provinciali offrono ai giovani un'esperienza lavorativa preziosa per la loro futura carriera.\n\nL'iniziativa si inserisce in un contesto più ampio di riforma universitaria che punta a rafforzare il legame tra mondo accademico e mondo del lavoro, ritenendolo fondamentale per lo sviluppo economico, sociale e culturale del territorio.",
+        "thinking": "",
+        "performance_t_s": 0.0,
+        "numero_delibera": "37"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1718",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 31.605552246s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 31\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1718",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento in questione riguarda il perfezionamento di un'iniziativa importante per lo sviluppo economico della Provincia autonoma di Trento: il programma \"Crescita Trentino\".  \n\nIl programma, avviato con l'obiettivo di sostenere e incentivare il tessuto imprenditoriale locale, prevede finanziamenti annuali per specifici interventi.  La delibera modifica e aggiorna le disposizioni relative a questo programma, sia quelle generali che quelle specifiche per ogni singolo intervento. \n\nLe modifiche apportate mirano a semplificare e migliorare l'accesso ai finanziamenti, rendendo il programma più efficiente e trasparente. \n\nLe modifiche riguardanti le disposizioni specifiche per i singoli interventi annuali sono retroattive, applicandosi a tutte le domande presentate in precedenza.  Le modifiche alle disposizioni di carattere generale, invece, hanno un'efficacia immediata, in quanto si tratta di chiarimenti e non di variazioni sostanziali. \n \nLa Provincia autonoma di Trento pubblica il provvedimento sul suo sito web, rendendolo accessibile a tutti i potenziali beneficiari del programma \"Crescita Trentino\".",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

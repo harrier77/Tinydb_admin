@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1710",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 28.743747376s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 28\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1710",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento approvato dalla Provincia autonoma di Trento si focalizza sulla valorizzazione e sviluppo del settore zootecnico e lattiero caseario trentino.\n\nL'iniziativa si inserisce in un contesto in cui l'agricoltura di montagna, e la zootecnia in particolare, vengono riconosciute come fondamentali per il presidio del territorio, la tutela ambientale e la valorizzazione dell'identità culturale locale.\n\nLa Provincia, già impegnata in politiche a sostegno di questo settore, ha dato vita ad un Tavolo Zootecnia composto da rappresentanti di diverse realtà del comparto, che ha analizzato le sfide e le opportunità del settore.  \n\nIl risultato di questo lavoro è lo schema di Protocollo d'intesa, che mira a definire azioni concrete per sostenere il settore. \n\nIl Protocollo si articola attorno a quattro aree tematiche: il sostegno alle nuove generazioni di allevatori, la sostenibilità economica e sociale del settore, il consolidamento e la coesione della filiera, e infine la valorizzazione dei prodotti lattiero caseari locali.\n\nAttraverso la collaborazione tra le diverse parti coinvolte, si punta a superare la frammentazione della filiera, promuovere una visione comune e rafforzare la competitività del settore zootecnico e lattiero caseario trentino.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

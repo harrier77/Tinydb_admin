@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2103",
+        "riassunto": "Il Provvedimento Provinciale 2103 delinea l'approvazione di misure agevolative per le imprese che offrono servizi di assistenza tecnica a partire dal 2027. La Giunta provinciale ha deliberato queste disposizioni in linea con la legge provinciale n. 6 del 6 luglio 2023. L'obiettivo principale è di supportare l'economia locale fornendo aiuti sotto forma di aiuti a de minimis, come stabilito dal Regolamento UE n. 2023/2831.\n\nLe domande relative a questa misura agevolativa non possono riferirsi alla disciplina precedente del 1999 e devono seguire i criteri attuali stabiliti dall'approvazione del 2023. Per il periodo 2026, le imprese possono ancora beneficiare delle disposizioni e criteri precedenti.\n\nLe responsabilità per l'erogazione di questi aiuti sono assegnate all'Agenzia provinciale per l'incentivazione delle attività economiche (APIAE), che gestirà le spese derivanti dal provvedimento utilizzando i fondi a sua disposizione.\n\nÈ previsto che il Dirigente della struttura competente inserisca nel Registro Nazionale Aiuti (RNA) le informazioni riguardanti il regime stabilito. Inoltre, il Servizio Agevolazioni dell'APIAE adotterà la modulistica necessaria per la presentazione delle domande.\n\nNon è richiesto il Codice Unico di Progetto (CUP) per il momento, poiché le disposizioni in questione riguardano aspetti generali.\n\nIl Provvedimento sarà reso disponibile e pubblicizzato sul sito istituzionale della Provincia autonoma di Trento.\n\n\n**Note:** Questo riassunto è stato condotto per fornire una comprensione chiara delle finalità e degli elementi chiave del provvedimento, evitando il linguaggio normativo e l'enfasi su dettagli burocratici.",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2103",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Giunta Provinciale di Trento ha approvato un nuovo provvedimento volto a sostenere le imprese locali attraverso l'agevolazione dei servizi di assistenza tecnica. \n\nL'iniziativa, che rientra nell'ambito della legge provinciale del 6 luglio 2023, n. 6 \"Interventi a sostegno del sistema economico trentino\", si propone di semplificare e rendere più efficaci le procedure di accesso ai finanziamenti per le imprese che necessitano di supporto per l'implementazione e la manutenzione del proprio apparato tecnico. \n\nLe agevolazioni saranno erogate a partire dall'anno 2027, in regime di de minimis, secondo quanto previsto dal Regolamento (UE) n. 2023/2831.\n\nLe imprese che hanno presentato richieste di agevolazione nel 2026 continueranno ad applicare i criteri previsti dalla legge provinciale 1999 n. 6, mentre dal 2027 si passerà al nuovo regime.\n\nLa gestione dell'iniziativa sarà affidata all'Agenzia provinciale per l'incentivazione delle attività economiche (APIAE), che si occuperà anche della pubblicazione della modulistica necessaria per presentare le richieste di agevolazione.\n\nQuesto provvedimento rappresenta un passo importante per rafforzare il tessuto imprenditoriale trentino e favorire la crescita di un sistema economico più competitivo e resiliente.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

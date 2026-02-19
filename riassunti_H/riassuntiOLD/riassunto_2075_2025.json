@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2075",
+        "riassunto": "La Giunta provinciale di Trento ha deliberato di rimodulare le prenotazioni fondi e impegni di spesa per il finanziamento delle spese di investimento dei comuni. Questa decisione si basa su una revisione del bilancio per gli esercizi finanziari dal 2027 al 2036, con una riduzione dei contributi destinati ai capitoli 205465-2027 e 205850-2027 e una nuove allocazione dei contributi per gli esercizi dal 2028 al 2037.\n\nLa riforma prevede una redistribuzione di Euro 13.950.507,84 nei nuovi capitoli, parzialmente rinviando l'assegnazione delle risorse finanziarie. In particolare, Euro 4.906.478,19 sono destinati al capitolo 205465-2028 e Euro 9.044.029,65 al capitolo 205850-2028.\n\nLe prenotazioni e impegni di spesa sono così ridislocati: Euro 1.319.617,91 e Euro 3.586.860,28 sono riassegnati al capitolo 205465-2028 per il Fondo di riserva, mentre Euro 8.054.270,55 e Euro 989.759,10 sono riassegnati al capitolo 205850-2028 per il Fondo di investimenti di rilevanza provinciale/Fondo unico territoriale.\n\nIl provvedimento prevede una collaborazione potenziale con la Banca Europea per gli Investimenti per ottimizzare i costi di provvista, garantendo la copertura delle concessioni già effettuate.\n\nIl provvedimento si applica secondo le modalità stabilite dalla deliberazione della Giunta provinciale n. 288 del 23 febbraio 2017 e prevede il rispetto di termini di ricorso amministrativo.\n\nIn sintesi, la Giunta provinciale di Trento intende adeguare le allocazioni finanziarie per gli investimenti comunali attraverso una rimodulazione delle risorse, garantendo la continuità e l'efficienza del finanziamento delle opere e degli interventi previsti.\n\n(200 parole)",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2075",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera della Giunta Provinciale di Trento riguarda la rimodulazione di fondi destinati ai Comuni della provincia per investimenti infrastrutturali. \n\nIn sintesi, la Giunta ha deciso di spostare risorse finanziarie previste per gli esercizi finanziari dal 2027 al 2036, a favore degli esercizi dal 2028 al 2037. \n\nQuesta riallocazione, che interessa due capitoli di bilancio specifici (205465-2027 e 205850-2027), si rende necessaria a causa di una riorganizzazione del bilancio provinciale. \n\nLa delibera specifica che il totale di queste risorse è di Euro 13.950.507,84 e include sia fondi destinati a progetti di “riserva” (per interventi urgenti) che fondi per progetti di “rilevanza provinciale” (interventi di interesse per l’intera provincia). \n\nL'assegnazione finale di questi fondi ai Comuni avvenirà tramite Cassa del Trentino S.p.A., seguendo le modalità previste da una precedente delibera.\n\nLa Giunta sottolinea che questa rimodulazione non pregiudica le concessioni già state rilasciate ai Comuni, ma ne riallineerà semplicemente la ripartizione temporale.\n\nInfine, la delibera informa che eventuali collaborazioni con la Banca Europea per gli Investimenti (BEI) per ottimizzare i costi di finanziamento saranno estese ai Comuni.\n\n\n\nIn sintesi, questa delibera rappresenta un passo importante per garantire la continuità degli investimenti infrastrutturali nei Comuni della provincia di Trento, anche in un contesto di riorganizzazione del bilancio provinciale.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

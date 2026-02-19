@@ -82,9 +82,15 @@ class SplitDirectoryDB:
     def __init__(self, directory_path):
         self.directory = directory_path
         self.root_config = self._load_root_config()
-        # Il path delle tabelle è relativo alla directory root
         tables_subdir = self.root_config.get('path', '')
-        self.tables_path = os.path.join(directory_path, tables_subdir) if tables_subdir else directory_path
+        if tables_subdir:
+            if tables_subdir.startswith('..'):
+                parent_dir = os.path.dirname(os.path.abspath(directory_path))
+                self.tables_path = os.path.normpath(os.path.join(parent_dir, tables_subdir))
+            else:
+                self.tables_path = os.path.join(directory_path, tables_subdir)
+        else:
+            self.tables_path = directory_path
         self._table_name = tables_subdir if tables_subdir else 'default'
         self._table_cache = {}
     
@@ -99,8 +105,7 @@ class SplitDirectoryDB:
     
     def tables(self):
         """Restituisce la lista dei nomi delle tabelle disponibili"""
-        # Restituisce il nome della tabella dalla root.json (es. 'AREE')
-        return [self._table_name]
+        return [os.path.basename(self.directory)]
     
     def table(self, name):
         """Restituisce la tabella che contiene tutti i documenti dalla directory"""
@@ -315,7 +320,12 @@ def browse(path):
     # Parsing del path
     parts = path.split('/')
     
-    current_table = parts[0] if parts else None
+    # Usa il nome del database dalla sessione se disponibile
+    current_db_name = session.get('current_db', '')
+    if current_db_name and os.path.isdir(current_db_name):
+        current_table = current_db_name
+    else:
+        current_table = parts[0] if parts else None
     current_doc_id = None
     current_doc = None
     root_doc_id = None

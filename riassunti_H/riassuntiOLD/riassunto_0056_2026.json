@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "0056",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Finanziamento per la tutela della natura in Val di Cembra Avisio\n\nLa Provincia ha approvato il Programma degli interventi della Rete di riserve Val di Cembra Avisio per il triennio 2026-2028. Questo programma ha avuto l'obiettivo di salvaguardare e valorizzare il territorio e l'ambiente naturale della Rete, contribuendo alla conservazione della biodiversità e alla fruizione sostenibile delle risorse locali da parte dei cittadini. Per l'attuazione delle attività previste, è stato concesso un finanziamento complessivo di 380.000,00 euro alla Comunità Valle di Cembra Avisio, l'ente responsabile della gestione della Rete. I fondi sono stati destinati alla realizzazione di progetti e interventi volti a proteggere e migliorare il patrimonio ambientale dell'area per un periodo che si estende dal 30 dicembre 2025 al 30 dicembre 2028 (deliberazione n. 0056 del 23 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "56",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento approva il Programma degli interventi per la Rete di riserve Val di Cembra Avisio per il triennio 2026-2028. \n\nQuesto programma si inserisce nell'ambito di un accordo di collaborazione novennale, siglato a dicembre 2022, che mira a tutelare e valorizzare il territorio e l'ambiente naturale della Val di Cembra Avisio.  Il programma, finanziato con 380.000 euro dalla Provincia, prevede interventi di conservazione e valorizzazione del patrimonio naturale e paesaggistico dell'area.\n\nLa Comunità Valle di Cembra Avisio, ente responsabile della gestione della Rete, presenterà progetti specifici e renderà conto delle attività svolte entro 210 giorni dalla scadenza del programma, nel 2028.  \n\nLa Provincia, con questo provvedimento, conferma il suo impegno nella tutela e valorizzazione delle aree protette, garantendo un finanziamento specifico per la realizzazione di interventi mirati a preservare la biodiversità e l'integrità ambientale della Val di Cembra Avisio.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "0074",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Miglioramento del Trasporto Pubblico per le Olimpiadi 2026\n\nLa Provincia ha approvato una convenzione con la Provincia autonoma di Bolzano per potenziare i servizi di trasporto pubblico di persone durante il periodo delle Olimpiadi e Paralimpiadi invernali Milano Cortina 2026, dal 23 gennaio al 18 marzo 2026. Questo accordo ha garantito la circolazione gratuita per i volontari accreditati, sia sulla rete ferroviaria e su gomma dell'intero territorio provinciale trentino, sia su specifiche tratte della Provincia di Bolzano, inclusa la linea Ora-Cavalese. È stato anche potenziato il servizio autobus tra Ora e Penia con corse ogni ora in determinati periodi e sono state aggiunte fermate in Alto Adige, come Montagna e San Lugano, per migliorare l'accessibilità. Inoltre, è stato organizzato un servizio navetta dedicato ai possessori di biglietti per gli eventi sportivi tra la stazione di Ora e le sedi di gara di Predazzo e Tesero Lago. L'iniziativa ha permesso di facilitare la mobilità di tutti i partecipanti e spettatori senza comportare oneri aggiuntivi per il bilancio provinciale, grazie alla parità dei servizi offerti dalle due Province (deliberazione n. 0074 del 23 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2026",
+        "numero_delibera": "74",
+        "riassunto": "Questa delibera riguarda l'approvazione di una convenzione tra le Province autonome di Trento e Bolzano per la gestione del trasporto pubblico durante le Olimpiadi e le Paralimpiadi invernali del 2026. \n\nL'obiettivo principale è garantire una mobilità fluida e efficiente per volontari, spettatori e stakeholder durante l'evento, che si svolgerà in buona parte in territori di entrambe le province. \n\nLa convenzione, che integra una preesistente accordo sulla linea ferroviaria e autobus Penia-Cavalese-Ora, prevede servizi di trasporto gratuiti e potenziamenti specifici per il periodo olimpico.\n\nLa Provincia Autonoma di Trento si impegna a garantire un servizio autobus potenziato sulla tratta Ora-Penia, con fermate aggiuntive in località di competenza della Provincia Autonoma di Bolzano. La Provincia Autonoma di Bolzano, a sua volta, si impegna a fornire il trasporto gratuito sulla linea ferroviaria Trento-Ora e sulla linea autobus Ora-Cavalese per i volontari accreditati. \n\nLa convenzione, in vigore dal 23 gennaio al 18 marzo 2026, mira a ottimizzare il flusso di persone durante le Olimpiadi e le Paralimpiadi, riducendo congestioni e garantendo un'esperienza positiva per tutti i partecipanti e visitatori.",
+        "thinking": ""
+    }
+]

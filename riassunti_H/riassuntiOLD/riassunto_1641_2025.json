@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1641",
+        "riassunto": "Sostegno all'accesso al credito per le imprese trentine\n\nLa Provincia autonoma di Trento ha destinato un importo di 4 milioni di euro per l'anno 2025, finalizzato a rafforzare i fondi rischi ordinari degli enti di garanzia attivi sul territorio. Questo finanziamento ha permesso ai confidi, specificamente a C.T.I. CONFIDI TRENTINO IMPRESE S.C. e COOPERFIDI S.C., di consolidare il proprio patrimonio e, di conseguenza, di offrire maggiori garanzie per le operazioni di finanziamento alle imprese associate. L'intervento ha sostenuto concretamente il sistema economico trentino, facilitando l'accesso al credito per le attività produttive locali e contribuendo al loro sviluppo (deliberazione n. 1641 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1641",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento in questione riguarda l'assegnazione di risorse finanziarie destinate al supporto dei Confidi (Centri di tutela e intermediazione delle attività economiche) operanti in provincia di Trento. \n\nL'iniziativa nasce dall'esigenza di rafforzare il sistema di garanzia per le piccole e medie imprese locali, garantendo loro un accesso più facile ai finanziamenti.  I Confidi svolgono un ruolo fondamentale nell'economia provinciale, offrendo garanzie ai finanziamenti che le imprese richiedono alle banche. \n\nLa Provincia autonoma di Trento, nel rispetto di una normativa specifica, ha stanziato 4 milioni di euro per l'integrazione dei fondi rischi ordinari dei Confidi trentini. Questo significa che le risorse verranno utilizzate per aumentare la capacità finanziaria dei Confidi stessi, permettendo di estendere le garanzie per un numero maggiore di imprese.\n\nIn particolare, la deliberazione specifica due principali enti beneficiari: C.T.I. CONFIDI TRENTINO IMPRESE S.C. e COOPERFIDI S.C.  Il riparto delle risorse tra questi due enti sarà proporzionale all'entità massima spettante a ciascun ente, in base ai criteri definiti dalla Giunta provinciale in una precedente deliberazione.\n\nQuesto provvedimento, che si inserisce nel contesto di un più ampio piano di sostegno all'economia provinciale, mira a consolidare il tessuto imprenditoriale locale e a favorire la crescita economica.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

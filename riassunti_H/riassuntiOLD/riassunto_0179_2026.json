@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2026",
+        "numero_delibera": "0179",
+        "riassunto": "Nuove Politiche Provinciali per il Lavoro\n\nLa Provincia ha adottato un nuovo e aggiornato Documento per le politiche del lavoro, il quale ha sostituito i precedenti piani provinciali. Questo provvedimento ha introdotto un quadro di interventi volto a sostenere l'occupazione e l'inserimento nel mercato del lavoro per i cittadini. Sono state definite nuove regole applicabili alle domande di contributo, in particolare per i progetti di formazione continua e per la promozione dei tirocini formativi e di orientamento. È stato inoltre confermato il ruolo del \"Progettone\" come strumento attivo per ricondurre i lavoratori nel mercato del lavoro ordinario, grazie a interventi specifici di formazione e politiche attive, basati su un Piano triennale. Le disposizioni relative ai voucher per l'accesso a progetti individualizzati di inserimento lavorativo per persone con disabilità o in condizione di svantaggio sono state mantenute in vigore (deliberazione n. 0179 del 13 febbraio 2026).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "179",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha approvato il \"Documento degli interventi di politica del lavoro della XVII Legislatura\". Questo documento, che sostituisce il precedente, definisce le strategie e le azioni concrete per supportare il mercato del lavoro provinciale.\n\nIl documento è composto da diverse sezioni che indirizzano interventi specifici su diverse fasce lavorative e settori. Tra i principali obiettivi ci sono la promozione della formazione continua per i lavoratori, il sostegno all'inserimento lavorativo di persone con disabilità e svantaggio, il potenziamento dei tirocini formativi e l'offerta di incentivi alle imprese per favorire l'occupazione. \n\nIn particolare, il documento integra il \"Progettone\", un programma di politiche attive del lavoro, finalizzato a reintegrare i lavoratori disoccupati nel mercato del lavoro.  \n\nL'attuazione di questo documento si basa su un approccio strategico e integrato,  combinando politiche di formazione, sostegno all'occupazione e interventi diretti per favorire l'inserimento lavorativo. \n\nL'obiettivo finale è quello di promuovere un mercato del lavoro dinamico e inclusivo, capace di rispondere alle esigenze del territorio e di garantire nuove opportunità di crescita professionale per i lavoratori trentini.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

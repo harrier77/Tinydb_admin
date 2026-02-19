@@ -1,0 +1,19 @@
+[
+    {
+        "numero_delibera": "0008",
+        "anno_delibera": "2026",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Estensione per i Progetti di Modernizzazione Agricola\n\nLa Provincia ha approvato una modifica al bando per l'innovazione e la meccanizzazione nel settore agricolo, un'iniziativa finanziata dall'Unione Europea tramite il PNRR che aveva destinato alla Provincia di Trento oltre 14,4 milioni di euro. Questo programma puntava all'ammodernamento dei macchinari agricoli per l'introduzione di tecniche di agricoltura di precisione. In considerazione degli aggiornamenti ministeriali sul cronoprogramma, è stata concessa la possibilità di una proroga del termine per l'ultimazione e la rendicontazione delle iniziative. I beneficiari hanno così avuto la facoltà di completare i loro progetti non oltre il 27 marzo 2026, presentando domanda entro 30 giorni dalla decisione per motivazioni oggettive. Questa flessibilità ha permesso ai coltivatori di sfruttare appieno i fondi europei per innovare le proprie aziende e contribuire a un'agricoltura più sostenibile ed efficiente (deliberazione n. 8 del 12 gennaio 2026).",
+        "thinking": ""
+    },
+    {
+        "nome_modello_ai": "gemini-pro",
+        "selezionato": 0,
+        "anno_delibera": "2026",
+        "obi_pol": "politica 9.5.2",
+        "riassunto": "Questa delibera della Giunta Provinciale di Trento riguarda un programma finanziato dal PNRR (Piano Nazionale di Ripresa e Resilienza) volto all'innovazione e alla meccanizzazione del settore agricolo e alimentare. \n\nIl programma, in particolare, punta a supportare l'acquisto di macchinari agricoli che permettano l'introduzione di tecniche di agricoltura di precisione.  A seguito di un aggiornamento del cronoprogramma da parte del Ministero dell'Agricoltura, la Giunta Provinciale ha modificato il bando originale per adeguare la scadenza del termine di rendicontazione delle iniziative. \n\nLa nuova scadenza, fissata al 27 marzo 2026, permette ai beneficiari di ultimare i progetti e presentare la rendicontazione entro tale data. La delibera introduce inoltre la possibilità di richiedere una proroga in sanatoria del termine per motivazioni oggettive, entro 30 giorni dalla data di approvazione del provvedimento. \n\nQuesta iniziativa, che ha ricevuto un finanziamento di oltre 14 milioni di euro, mira a modernizzare l'agricoltura della provincia di Trento, rendendola più efficiente e sostenibile. L'obiettivo è di favorire l'adozione di nuove tecnologie e pratiche agricole che consentano di migliorare la produttività, ridurre gli sprechi e proteggere l'ambiente.",
+        "thinking": "",
+        "performance_t_s": 0.0,
+        "numero_delibera": "8"
+    }
+]

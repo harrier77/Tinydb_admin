@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1682",
+        "riassunto": "Chiarite e Aggiornate le Regole per gli Interventi Provinciali\n\nLa Provincia autonoma di Trento ha aggiornato le disposizioni di carattere generale che regolano tutti gli interventi della legge provinciale 6 luglio 2023, n. 6. Sono state apportate modifiche a norme precedentemente approvate, con l'obiettivo di rendere più chiare e coerenti le procedure di riferimento. A seguito di questi aggiornamenti, è stato approvato il testo coordinato completo di tali disposizioni. Le nuove regole sono entrate in vigore per tutte le domande presentate dai cittadini a partire dal giorno successivo all'approvazione, garantendo l'applicazione di un quadro normativo attuale per l'accesso ai servizi e ai benefici provinciali (deliberazione n. 1682 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1682",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha approvato una modifica importante alla legge provinciale n. 6 del 2023, riguardante gli interventi di un particolare programma (non specificato nel testo).\n\nQuesto provvedimento, adottato in data 31 ottobre 2025, ha lo scopo di aggiornare e perfezionare le disposizioni generali relative a tutti gli interventi previsti dalla legge n. 6 del 2023.  La legge, originariamente approvata nel luglio 2023, è stata successivamente modificata e integrata da diverse deliberazioni di Giunta. \n\nLa modifica apportata con la delibera in questione mira a semplificare e chiarire le procedure per accedere ai benefici previsti dal programma.  Le modifiche entrano in vigore dal giorno successivo alla pubblicazione del provvedimento sul sito istituzionale della Provincia.\n\nSi precisa che per questa specifica iniziativa non è necessario richiedere il Codice Unico di Progetto (CUP), come previsto da normative generali per altri tipi di interventi pubblici. \n\n\nL'approvazione di questa modifica rappresenta un passo importante nell'ambito della legge n. 6/2023,  facilitando l'accesso e la gestione degli interventi per i destinatari del programma.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

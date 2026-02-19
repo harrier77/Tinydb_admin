@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2099",
+        "riassunto": "La Giunta della Provincia autonoma di Trento delibera sull'aggiornamento del Piano di sviluppo economico del 1999, con riferimento all'anno 2025, approvando e finanziando la proposta di Trentino Sviluppo S.p.a. per l'implementazione di interventi relativi alla promozione, qualificazione e incentivi economici. Il piano prevede una spesa complessiva di oltre 36 milioni di euro, suddivisa in diverse macro-aree e risorse. Questo finanziamento copre una parte delle spese già previste per il 2024, non utilizzate, e integra ulteriori risorse provenienti da fondi diversi, inclusi quelli europei e nazionali.\n\nIl piano prevede una somma complessiva di risorse aggiuntive pari a circa 31,7 milioni di euro, delle quali 220.000 euro saranno assegnate dal capitolo 615625 del bilancio provinciale, 6 milioni dal capitolo 615605, 4,5 milioni dai fondi strutturali europei (FESR) 2021-2027, e 270.844 euro dagli incassi da soggetti compartecipanti.\n\nLa somma totale di euro 3,69 milioni sarà distribuita tra le tre fonti di finanziamento: lo Stato, l'Unione Europea e la Provincia, in percentuali rispettivamente pari al 42%, 40% e 18%.\n\nTrentino Sviluppo S.p.a. sarà tenuta a rispettare la Convenzione del 1999 e le direttive aggiuntive, e l'attuazione delle iniziative sarà coordinata con enti della ricerca e alta formazione. Le risorse saranno erogate in base ai fabbisogni periodici di cassa.\n\nLa delibera è stata pubblicata sul sito istituzionale della Provincia autonoma di Trento.\n\n(LP-ICP Adunanza chiusa ad ore 10:50)",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2099",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La delibera in questione approva l'aggiornamento del Piano annuale per il 2025, in particolare per gli interventi legati a \"Promozione, Qualificazione e Incentivi\" gestiti da Trentino Sviluppo S.p.a. \n\nQuesto Piano, attuato grazie a risorse provenienti da diversi fondi, ha come obiettivo principale di supportare lo sviluppo economico della Provincia Autonoma di Trento. Le risorse, pari a 36.817.684,39 euro, saranno utilizzate per finanziare diverse attività, tra cui quelle di promozione del territorio, formazione professionale e erogazione di contributi a favore delle imprese. \n\nLa delibera precisa che la maggior parte di queste risorse (20.646.840,16 euro) proviene da fondi precedentemente stanziati per l'anno 2024 ma non ancora utilizzati. Il restante importo è coperto da risorse provinciali, nazionali e europee, provenienti da diversi capitoli di bilancio e da fondi specifici come il Fondo Europeo di Sviluppo Regionale (FESR). \n\nPer garantire una corretta gestione delle risorse, la delibera stabilisce che l'erogazione delle risorse avvenga in base a fabbisogni periodici presentati da Trentino Sviluppo S.p.a. Inoltre, si prevede un rigoroso coordinamento con le istituzioni di ricerca e alta formazione e con gli altri enti del sistema pubblico provinciale per una sinergia ottimale nell'attuazione delle iniziative.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

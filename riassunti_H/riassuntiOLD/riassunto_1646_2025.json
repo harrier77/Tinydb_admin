@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1646",
+        "riassunto": "Sostegno Ulteriore alle Attività Commerciali nelle Aree Montane\n\nPer rafforzare la presenza di servizi essenziali nelle zone montane e periferiche, è stato erogato un sostegno finanziario aggiuntivo. Già nel corso del 2024, 228 attività commerciali e pubblici esercizi avevano ricevuto 4,1 milioni di euro per contrastare l'aumento dei costi, e il limite massimo di contributo era stato innalzato a 28.000 euro per riconoscere le difficoltà di gestione in queste aree. Nel 2025, sono stati concessi premi per l'insediamento e contributi per la permanenza a 219 attività che hanno svolto la loro attività nel 2024, per un totale di quasi 3,3 milioni di euro. È stato successivamente stanziato un ulteriore milione di euro, in linea con un Protocollo d'intesa con la Federazione Trentina della Cooperazione, per riconoscere il valore strategico dei servizi di prossimità. Questo importo aggiuntivo è stato ripartito proporzionalmente tra tutti i beneficiari dei contributi già concessi nel 2025, senza necessità di presentare nuove domande, garantendo così un presidio commerciale e un punto di incontro e socializzazione per le comunità locali (deliberazione n. 1646 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1646",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha approvato un provvedimento volto a sostenere le attività commerciali nelle zone montane, in particolare i multiservizi e i multiservizi SIEG (Servizi di Interesse Economico Generale). \n\nNel 2024 sono stati concessi contributi a 228 esercizi commerciali, per un importo totale di 4.102.000 euro, per favorire l'insediamento e la permanenza in zone svantaggiate. \n\nQuesto provvedimento, che si inserisce nell'ambito di una politica più ampia di sviluppo sostenibile e di contrasto all'abbandono delle aree montane, prevede un ulteriore contributo integrativo di 1.000.000 euro per gli esercizi che hanno già beneficiato di contributi nel 2025 per l'attività svolta nel 2024.\n\nTale contributo, che verrà erogato in base a un criterio proporzionale all'importo del contributo già concesso, mira a mitigare gli effetti negativi della crisi economica e dell'aumento dei costi operativi sulle attività commerciali nelle zone più remote.\n\nIl provvedimento si integra con un Protocollo di Intesa tra la Provincia Autonoma di Trento e la Federazione Trentina della Cooperazione, che sottolinea l'importanza della prossimità dei servizi per le comunità montane. \n\nL'iniziativa è considerata di grande valore pubblico in quanto contribuisce a mantenere vivi centri di piccole dimensioni, garantendo l'accesso ai servizi essenziali per la popolazione e promuovendo un'economia sostenibile nelle aree montane.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

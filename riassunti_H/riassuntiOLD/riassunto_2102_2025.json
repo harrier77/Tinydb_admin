@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2102",
+        "riassunto": "L'Assemblea provinciale delibera sulla modifica delle disposizioni per una misura di aiuto per investimenti aziendali focalizzata sulla sostenibilità e l'efficienza energetica. Il provvedimento, numero delibera 2102, modifica le regole precedentemente approvate il 20 ottobre 2023, per allineare le nuove regole con ulteriori deliberazioni. Le modifiche riguardano specificamente le domande presentate a partire dal 10 maggio 2025, e stabiliscono nuovi requisiti per le unità operative non di proprietà. Queste modifiche non richiedono la presentazione del Codice Unico di Progetto, semplificando il processo di erogazione dell'incentivo. Il provvedimento sarà pubblicato sul sito istituzionale della Provincia autonoma di Trento. \n(Riferimento: 2025-D323-00203)",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2102",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento in questione, emanato dalla Giunta provinciale di Trento, mira a perfezionare e aggiornare una misura di agevolazione dedicata agli investimenti aziendali che contribuiscono a sostenere la transizione ecologica, la tutela ambientale, l'economia circolare e l'efficienza energetica. \n\nLa misura, originariamente approvata nel 2023, viene modificata con l'obiettivo di semplificare e rendere più incisiva la sua applicazione. In particolare, il provvedimento introduce precisazioni e integrazioni per alcuni specifici interventi, garantendo un accesso più agevole e trasparente alle risorse per le imprese trentine.  \n\nUn'attenzione particolare è rivolta alla semplificazione delle procedure e alla chiarezza dei requisiti per accedere all'incentivo, con l'obiettivo di facilitare la comprensione e l'utilizzo da parte delle imprese.  La data di inizio applicazione delle modifiche è fissata al 1° gennaio 2026, con eccezione per alcune disposizioni relative all'utilizzo di unità operative non di proprietà, che entrano in vigore a partire dal 10 maggio 2025. \n\nIl provvedimento, pubblicando le nuove disposizioni sul sito istituzionale della Provincia autonoma di Trento, intende garantire piena trasparenza e accessibilità al sistema di supporto per l'innovazione ambientale.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

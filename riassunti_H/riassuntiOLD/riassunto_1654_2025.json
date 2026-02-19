@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1654",
+        "riassunto": "Aggiornamento dei Finanziamenti per la Mobilità Pubblica\n\nÈ stato aggiornato il documento di programmazione degli interventi per il settore della mobilità pubblica, destinando risorse aggiuntive per garantire la continuità e l'efficienza dei servizi. Una somma complessiva di 12.900.000,00 euro è stata programmata per fronteggiare possibili aumenti dei costi dei contratti di trasporto in corso e per la nuova gara di affidamento dei servizi scolastici e di accompagnamento per persone con disabilità. Inoltre, sono stati previsti 3.095.000,00 euro per conguagli e agevolazioni tariffarie. La programmazione esistente è stata confermata per i servizi ferroviari con Trenitalia, le agevolazioni tariffarie e le convenzioni con la Provincia autonoma di Bolzano per l'incremento dei servizi, nonché per la gestione delle smart card e il trasporto scolastico per le visite guidate. Questi interventi hanno portato a un incremento complessivo di spesa di 15.995.000,00 euro, assicurando il rafforzamento delle reti di mobilità provinciale (deliberazione n. 1654 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1654",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia autonoma di Trento ha approvato un aggiornamento del Documento di Programmazione degli Interventi (DOPI) relativo al trasporto pubblico. \n\nIl DOPI, approvato all'inizio della XVII legislatura, fissa gli obiettivi e le risorse per gli interventi di mobilità pubblica della Provincia. Questo aggiornamento, reso necessario dalla Legge di Assestamento di Bilancio, si focalizza su tre capitoli di spesa.\n\nIl primo capitolo, relativo al periodo 2025-2030, include 12,9 milioni di euro per affrontare gli incrementi di costo dei contratti di trasporto in corso, legati a rinnovi contrattuali e inflazione, oltre a finanziare la nuova gara per i servizi scolastici e di accompagnamento per le persone con disabilità dal 2026. \n\nIl secondo capitolo, che copre gli anni 2025-2033, prevede 3,095 milioni di euro per gestire i conguagli relativi a un contratto di servizio e per coprire le agevolazioni tariffarie previste per il periodo 2026-2033. \n\nIl terzo capitolo riguarda le spese per il trasporto scolastico, inclusi i costi per le visite guidate organizzate dagli istituti scolastici.\n\nIn totale, l'aggiornamento incrementa di 15,995 milioni di euro la spesa prevista nel DOPI per gli anni 2025-2030, portando il totale a 413,995 milioni di euro. \n\nQuesta decisione si inserisce nel quadro più ampio dell'obiettivo di investire in infrastrutture e reti di mobilità strategiche, per migliorare l'accessibilità e la mobilità nel territorio provinciale.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

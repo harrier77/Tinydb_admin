@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1683",
+        "riassunto": "Aggiornate le agevolazioni per la crescita in Trentino\nLa Provincia autonoma di Trento ha aggiornato le disposizioni per accedere ai finanziamenti annuali del programma \"Crescita Trentino\", con l'obiettivo di sostenere cittadini e imprese nel territorio. È stata introdotta una significativa novità per l'anno 2025, estendendo a trenta mesi il periodo di ammissibilità delle spese sostenute prima della domanda, rispetto ai precedenti diciotto mesi. Questa modifica ha permesso di includere una più ampia gamma di interventi e progetti nel sistema di agevolazioni provinciali. Le domande per le spese del 2025 sono state aperte dal 4 novembre 2025 al 2 marzo 2026. I tempi di procedimento per le richieste del 2025 sono stati fissati in 180 giorni, sebbene sia stata disposta una sospensione temporanea per garantire una gestione più efficace delle istanze con l'introduzione di un nuovo sistema informatico (deliberazione n. 1683 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1683",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Giunta Provinciale di Trento ha adottato un provvedimento volto a modificare le disposizioni specifiche per gli interventi annuali del programma \"Crescita Trentino\". \n\nIl programma \"Crescita Trentino\" è un'iniziativa pubblica finalizzata a sostenere progetti e interventi volti allo sviluppo economico e sociale della provincia.\n\nIl provvedimento si concentra principalmente sulla modifica dei termini per la presentazione delle domande di finanziamento per il 2025 e il 2026, e introduce una proroga per l'ammissibilità delle spese sostenute rispetto alle date iniziali di presentazione delle domande. Per il 2025, le spese sostenute fino al 31 dicembre 2025 potranno essere ammesse a finanziamento se presentate entro il 2 marzo 2026. \n\nInoltre, il provvedimento sospende temporaneamente i termini di procedimento per le domande presentate per il 2025, in attesa dell'attivazione di un nuovo applicativo informatico per la gestione delle richieste. \n\nIl provvedimento mira a semplificare l'accesso al finanziamento per le attività di sviluppo sostenibile, fornendo maggiore flessibilità e chiarezza agli interessati.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

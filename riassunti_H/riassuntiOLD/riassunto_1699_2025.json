@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1699",
+        "riassunto": "Approvata variante per l'area estrattiva di porfido a Fornace\n\nLa Provincia autonoma di Trento ha approvato una modifica al Piano provinciale per l'utilizzo delle risorse minerarie, riguardante l'area di estrazione del porfido \"Pianacci - S. Stefano - Slopi - Val dei Sari\" nel Comune di Fornace. Questa variante ha permesso un ampliamento di 85 metri dell'area estrattiva, con precise indicazioni per garantire la stabilità del versante e la sicurezza delle operazioni. Sono state richieste misure di riprofilatura del terreno con la creazione di gradoni e la valutazione di un rapporto di scavo per assicurare la salvaguardia del giacimento. Il provvedimento ha anche stabilito che le indicazioni del Rapporto Ambientale, incluse le misure di mitigazione e compensazione degli impatti, fossero recepite nel Programma di attuazione comunale. Il Comune di Fornace è stato incaricato di monitorare le componenti ambientali e di presentare report quinquennali per controllare gli effetti dell'attività (deliberazione n. 1699 del 07 novembre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1699",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia Autonoma di Trento ha approvato una variante al Piano provinciale di utilizzazione delle sostanze minerali riguardante l'area estrattiva \"Pianacci - S. Stefano - Slopi - Val dei Sari\" nel Comune di Fornace. \n\nQuesta decisione, presa dopo una attenta valutazione da parte di un comitato tecnico interdisciplinare, mira a regolare in modo più preciso l'estrazione di porfido in quest'area. La variante, che include una Relazione tecnica, un Rapporto ambientale e altre documentazioni, approfondisce le indicazioni per un'attività estrattiva responsabile e sostenibile. \n\nIl Piano provinciale, nel suo aggiornamento, considera la necessità di garantire la stabilità del versante, la sicurezza della coltivazione e la salvaguardia del giacimento. La variante prevede specifici criteri per la riprofilatura del versante, la suddivisione in lotti e la monitoraggio degli impatti ambientali.  \n\nL'approvazione di questa variante rappresenta un importante passo per la gestione sostenibile dell'estrazione mineraria nella provincia. La Provincia garantisce la trasparenza del processo, rendendo disponibile tutta la documentazione online e presso gli uffici competenti.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

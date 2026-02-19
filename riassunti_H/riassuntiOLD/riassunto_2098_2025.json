@@ -1,0 +1,18 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "performance_t_s": 0.0,
+        "anno_delibera": "2025",
+        "numero_delibera": "2098",
+        "riassunto": "La Giunta provinciale di Trento ha deliberato il 19 Dicembre 2025, approvando un nuovo Allegato C al Disciplinare di affidamento dei servizi di trasporto extraurbano per Trentino Trasporti Spa. Questo aggiornamento prevede investimenti di competenza del Servizio Opere Stradali e Ferroviarie per una somma totale di 13,3 milioni di euro. Le modifiche riguardano i termini di completamento e rendicontazione per specifici interventi infrastrutturali, che ora sono fissati per il 31 dicembre 2027 e 2028.\n\nLa delibera ha anche considerato economie di spesa derivanti da varie revisioni e interventi, per un totale di 1.274.074 euro. Queste economie saranno assegnate per coprire costi eccedenti relativi al progetto \"Nuova officina di Spini di Gardolo\".\n\nIl provvedimento non è soggetto agli adempimenti previsti dal Registro nazionale aiuti di Stato. Questo approvazione e le modifiche sono finalizzate a garantire l'efficienza del programma di interventi infrastrutturali e la gestione finanziaria dei progetti.\n\nQuesto provvedimento si colloca nel contesto più ampio di miglioramento e sviluppo infrastrutturale dei servizi di trasporto extraurbano nella provincia di Trento, con un impegno alla pianificazione finanziaria e alla gestione di risorse a livello provinciale e a livello di società.",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "2098",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera della Provincia Autonoma di Trento riguarda l'aggiornamento di un piano finanziario per gli interventi di trasporto extraurbano gestiti da Trentino Trasporti S.p.A. \n\nL'iniziativa si focalizza sulla concessione di fondi per interventi di infrastrutturazione stradale e ferroviaria, per un importo totale di 13.310.000 euro. Questi fondi saranno utilizzati per migliorare l'efficienza e l'efficacia dei servizi di trasporto pubblico nel territorio provinciale. \n\nIn particolare, il provvedimento stabilisce i termini di realizzazione di alcuni interventi strategici, come l'integrazione di una stazione ferroviaria e la creazione di una nuova officina per la manutenzione del materiale rotabile. \n\nInoltre, l'aggiornamento del piano finanziario include anche la gestione di economie di spesa derivanti da interventi precedentemente finanziati.  Queste risorse saranno reindirizzate per coprire eventuali aumenti di costo di altri progetti, come la nuova officina di Spini di Gardolo.\n\nL'obiettivo generale di questa delibera è garantire un sistema di trasporto pubblico extraurbano efficiente, sostenibile e in linea con le esigenze del territorio trentino.\n\nL'iniziativa si inserisce nel contesto di un'attenta gestione delle risorse pubbliche da parte della Provincia Autonoma di Trento, in un'ottica di miglioramento della qualità dei servizi pubblici offerti ai cittadini.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

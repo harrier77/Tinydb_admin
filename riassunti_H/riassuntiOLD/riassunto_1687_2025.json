@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1687",
+        "riassunto": "Avvio della Sperimentazione per il Progetto di Vita delle Persone con Disabilità\n\nLa Provincia ha avviato la fase sperimentale di una riforma nazionale sulla disabilità, focalizzata sull'elaborazione del \"progetto di vita\" per le persone con disabilità. Questo progetto è stato concepito per migliorare le loro condizioni di vita, eliminare le barriere e attivare i supporti necessari per una piena inclusione e partecipazione nella società. Sono state definite e approvate specifiche linee di indirizzo per le Comunità di Valle e direttive per l'Azienda provinciale per i servizi sanitari, delineando le modalità per la valutazione multidimensionale e la creazione di progetti di vita individualizzati, personalizzati e partecipati. L'implementazione di queste attività, frutto di un percorso collaborativo con vari enti del territorio, non ha comportato oneri aggiuntivi per il bilancio provinciale nell'anno 2025 e si estenderà fino al 31 dicembre 2026 in questa fase sperimentale (deliberazione n. 1687 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1687",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento in questione definisce le linee guida per l'attuazione della riforma in materia di disabilità, introdotta dal decreto legislativo 62/2024, nella Provincia autonoma di Trento. \n\nLa riforma, parte del Piano Nazionale di Ripresa e Resilienza, mira a migliorare la vita delle persone con disabilità, riconoscendo loro il pieno esercizio dei diritti civili e sociali. Il provvedimento si inserisce in un contesto di sperimentazione della riforma, iniziata a livello nazionale a partire dal 30 settembre 2025, a cui la Provincia autonoma di Trento aderisce attivamente.  \n\nIl fulcro della riforma è il \"progetto di vita\", un documento personalizzato che identifica le esigenze della persona con disabilità e stabilisce gli interventi necessari per garantire la sua inclusione e partecipazione attiva nella società. \n\nLa Provincia autonoma di Trento, attraverso questo provvedimento, si impegna a coordinare gli enti coinvolti nella sperimentazione, come le Comunità di Valle, l'Azienda provinciale per i servizi sanitari e altri enti del territorio, per garantire un'efficace attuazione del progetto di vita. Le linee di indirizzo approvate prevedono la valutazione multidimensionale della persona con disabilità e la definizione di un percorso personalizzato di supporto. L'obiettivo è promuovere l'autonomia e l'integrazione delle persone con disabilità, permettendole di vivere pienamente la propria vita nel territorio provinciale.\n\n\nIl provvedimento si inserisce in un ambito di forte impegno per la tutela e l'inclusione delle persone con disabilità, in linea con la Strategia provinciale che mira a sostenere i servizi sociali e promuovere l'inclusione dei soggetti più vulnerabili.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

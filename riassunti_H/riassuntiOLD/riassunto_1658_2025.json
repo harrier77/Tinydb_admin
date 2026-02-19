@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1658",
+        "riassunto": "Nominato il Comitato di Coordinamento del Parco dello Stelvio\n\nLa Provincia ha nominato i componenti del Comitato provinciale di coordinamento e d'indirizzo del Parco nazionale dello Stelvio. Questo comitato è stato costituito da rappresentanti dei comuni di Pejo, Rabbi e Pellizzano, delle comunità locali, delle associazioni protezionistiche e della Società degli Alpinisti Tridentini, garantendo così una gestione partecipata e rappresentativa del territorio. I suoi membri hanno offerto il loro impegno senza ricevere alcun compenso o rimborso spese, dimostrando dedizione alla tutela dell'ambiente. L'insediamento di questo organo ha permesso di avviare un coordinamento essenziale per l'indirizzo e la supervisione delle attività del Parco, contribuendo alla sua conservazione e valorizzazione (deliberazione n. 1658 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1658",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera riguarda la nomina dei membri del Comitato provinciale di coordinamento e d'indirizzo del Parco nazionale dello Stelvio. \n\nIl Parco nazionale dello Stelvio è una zona protetta di grande valore naturalistico e paesaggistico. La legge provinciale 11/2007 stabilisce la necessità di un Comitato specifico per coordinare e dirigere le attività legate alla gestione e al mantenimento del parco.  Il Comitato è composto da rappresentanti di enti locali, associazioni ambientaliste,  comunità locali e altri stakeholders chiave, a dimostrazione dell'importanza di un approccio partecipativo alla gestione del territorio.\n\nIl provvedimento descrive in dettaglio il processo di nomina dei membri del Comitato, che si è svolto secondo le procedure previste dalla legge. Entro i termini di legge, gli enti competenti hanno comunicato le designazioni dei propri rappresentanti. La Giunta provinciale ha quindi nominato formalmente tutti i componenti titolari e supplenti del Comitato, assicurando così la sua costituzione e il suo funzionamento.\n\nL'iniziativa sottolinea l'impegno della Provincia autonoma di Trento nella tutela e valorizzazione del Parco nazionale dello Stelvio, coinvolgendo attivamente tutti gli attori interessati per garantire una gestione sostenibile e partecipativa di questa importante risorsa.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

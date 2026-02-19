@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1671",
+        "riassunto": "Miglioramento della Qualità delle Acque e Sostenibilità dell'Acquacoltura Trentina\n\nLa Provincia autonoma di Trento ha approvato un Accordo di programma con la Fondazione Edmund Mach e l'Organizzazione di produttori ASTRO. Questo accordo ha mirato a garantire una gestione più sostenibile degli impianti di acquacoltura del territorio, con l'obiettivo primario di mantenere o migliorare la qualità dei corsi d'acqua e dei laghi. Grazie a questa iniziativa, sono state definite azioni per accrescere la sostenibilità e la competitività dell'acquacoltura trentina, prevedendo lo sviluppo e il riammodernamento degli impianti esistenti, l'ottimizzazione dell'alimentazione e del benessere degli animali e la mitigazione degli impatti ambientali. È stato istituito un Tavolo di lavoro per individuare misure condivise e sviluppare un programma triennale per la gestione sostenibile degli impianti ittiogenici, contribuendo alla tutela dell'ambiente acquatico per la comunità (deliberazione n. 1671 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1671",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Il provvedimento approvato dalla Provincia Autonoma di Trento riguarda la tutela delle acque. \n\nIl documento si inserisce in un contesto più ampio: il Piano di Tutela delle Acque 2022-2027, volto a migliorare la qualità dei corpi idrici della provincia. \n\nSpecificamente, questo provvedimento approva un Accordo di programma triennale, finalizzato a rendere più sostenibili gli impianti di allevamento ittico (piscicolture) in Trentino.  L'Accordo coinvolge tre enti: la Provincia Autonoma di Trento, la Fondazione Edmund Mach e l'Organizzazione di produttori ASTRO.\n\nL'obiettivo è mitigare l'impatto ambientale di questi impianti, garantendo al contempo la competitività del settore acquicolo locale. \n\nL'Accordo prevede l'istituzione di un Tavolo di Lavoro che definirà misure specifiche per raggiungere questo obiettivo.\n\nTra le azioni previste: \n\n* Migliorare gli impianti esistenti per renderli più sostenibili.\n* Ottimizzare l'alimentazione e il benessere degli animali allevati.\n* Implementare una gestione sostenibile degli impianti, riducendo l'impatto ambientale. \n\nIl programma si inserisce in un'ottica più generale di sviluppo sostenibile per il territorio trentina, in linea con gli obiettivi di tutela ambientale e promozione di un'agricoltura sostenibile.   \n \nIl provvedimento si conclude con l'assegnazione di compiti alle diverse parti coinvolte (Provincia, Fondazione e ASTRO) e con la disposizione di pubblicare l'Accordo di programma sul sito web istituzionale.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

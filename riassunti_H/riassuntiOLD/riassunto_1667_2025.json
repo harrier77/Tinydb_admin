@@ -1,0 +1,17 @@
+[
+    {
+        "nome_modello_ai": "gemini-flash",
+        "anno_delibera": "2025",
+        "numero_delibera": "1667",
+        "riassunto": "Potenziamento dell'Assistenza Sanitaria a Domicilio\n\nLa Provincia ha rafforzato il sistema di assistenza domiciliare per la popolazione anziana, con l'obiettivo di migliorare l'efficacia delle cure erogate direttamente a casa dei cittadini. È stato aggiornato il piano operativo provinciale per l'assistenza domiciliare, orientando l'erogazione di interventi mirati e percorsi di cura personalizzati. Grazie a risorse del Piano Nazionale di Ripresa e Resilienza, con un finanziamento complessivo di oltre 23 milioni di euro per il periodo 2022-2025 e un'ulteriore integrazione di oltre 10 milioni di euro per il solo 2025, è stato possibile ampliare significativamente il numero di persone anziane assistite a domicilio. L'obiettivo era raggiungere circa 12.826 persone ultra 65enni entro il 2025, garantendo che quasi il 10% della popolazione anziana ricevesse supporto sanitario e assistenziale a casa. Per assicurare un servizio uniforme e di alta qualità su tutto il territorio, sono stati anche definiti e approvati nuovi criteri per l'attivazione dei piani di cure domiciliari, stabilendo un modello assistenziale più efficace (deliberazione n. 1667 del 31 ottobre 2025).",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1667",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "Questa delibera della Giunta Provinciale di Trento riguarda il potenziamento del servizio di assistenza domiciliare, un'iniziativa inserita nel Piano Nazionale di Ripresa e Resilienza (PNRR). \n\nIl PNRR mira a rinnovare e rafforzare il Servizio Sanitario Nazionale, con particolare attenzione all'assistenza territoriale. In questo contesto, il focus è sulla creazione di una rete di supporto che permetta alle persone, soprattutto gli anziani, di ricevere cure a domicilio. \n\nL'iniziativa si basa su una direttiva nazionale che stabilisce un standard del 10% della popolazione over 65 da includere in questo tipo di assistenza. \n\nLa provincia di Trento, grazie a un finanziamento del PNRR, ha ricevuto risorse per raggiungere questo obiettivo, che si traducono in circa 13.000 persone assistite.\n\nLa delibera approva l'aggiornamento del piano operativo provinciale dell'assistenza domiciliare, includendo nuovi criteri per l'attivazione dei piani di cura domiciliari.  \n\nL'obiettivo finale è garantire un'assistenza di qualità a domicilio, migliorando la salute e il benessere degli anziani e riducendo l'afflusso di pazienti negli ospedali.  Questa iniziativa rappresenta un passo importante per rendere il sistema sanitario più efficiente e orientato alle esigenze delle persone, in particolare per coloro che hanno bisogno di cure a casa propria.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

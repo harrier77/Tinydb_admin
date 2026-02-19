@@ -1,0 +1,17 @@
+[
+    {
+        "numero_delibera": "1745",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-flash",
+        "riassunto": "Error querying Gemini model: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 27.395586203s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "thinking": ""
+    },
+    {
+        "numero_delibera": "1745",
+        "anno_delibera": "2025",
+        "nome_modello_ai": "gemini-pro",
+        "riassunto": "La Provincia autonoma di Trento ha approvato un importante progetto multi-professionale chiamato \"C.O.P.E.+\", che si impegna a promuovere l'inclusione sociale e il benessere di persone in situazioni di fragilità. \n\nL'iniziativa si basa sull'approccio della \"Prescrizione Sociale\" (Social Prescribing), un metodo innovativo che integra servizi sanitari e sociali per affrontare le esigenze complesse dei cittadini. \n\nIl progetto si rivolge principalmente a giovani e giovani adulti (tra 15 e 34 anni) che affrontano difficoltà legate alla salute, all'educazione, al sociale e al lavoro.\n\nL'importo totale del progetto è di 900.000 euro e sarà gestito dall'Azienda provinciale per i servizi sanitari, che si occuperà della sua attuazione e rendicontazione. \n\nL'intervento, con una durata di 36 mesi, mira a fornire un supporto multidisciplinare personalizzato per aiutare i beneficiari a raggiungere il benessere e a superare le barriere che ostacolano la loro partecipazione attiva alla società. \n\nCon questo progetto, la Provincia autonoma di Trento dimostra un impegno concreto nella promozione del benessere sociale e nella creazione di un sistema integrato di supporto per i cittadini più fragili.",
+        "thinking": "",
+        "performance_t_s": 0.0
+    }
+]

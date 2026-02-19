@@ -1,9 +1,9 @@
 {
-  "nome": "Main Street",
+  "nome": "Main Street USA",
   "tipo": "area",
   "descrizione": "La via principale della America di fine 800",
   "attrazioni_principali": [
-    "Treno Disney",
+    "Treno Disneyland",
     "Teatro Town Square"
   ]
 }

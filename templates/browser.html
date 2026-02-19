@@ -252,7 +252,7 @@
                                     </a>
                                 {% else %}
                                     <!-- Campo è un valore semplice - editabile inline -->
-                                    {% set nested_field_path = field_url_base.replace('/', '.') + '.' + field_name %}
+                                    {% set nested_field_path = level.base_path.replace('/', '.') + '.' + field_name if level.base_path else level.array_name + '.' + level.index|string + '.' + field_name %}
                                     <div class="doc-link" style="cursor: default;">
                                         <div class="doc-header-inline">
                                             <span class="doc-icon">📄</span>
@@ -323,6 +323,7 @@
                     
                     {% if level.field_type == 'array' %}
                         <!-- Campo è un array - mostra lista elementi -->
+                        {% set level_index = loop.index0 %}
                         <div class="subcollections">
                             <div class="field-label">Elementi ({{ level.field_value|length }})</div>
                             <ul class="doc-list" style="margin-bottom: 20px;">
@@ -337,10 +338,34 @@
                                             <div class="doc-preview">{{ item|tojson|truncate(60) }}</div>
                                         </a>
                                     {% else %}
+                                        <!-- Elemento array è un valore semplice - editabile inline -->
+                                        {% set parent_base_path = nested_levels[level_index - 1].base_path.replace('/', '.') if level_index > 0 and nested_levels[level_index - 1].type == 'array_document' and nested_levels[level_index - 1].base_path else '' %}
+                                        {% if parent_base_path %}
+                                            {% set array_item_path = parent_base_path + '.' + level.field_name + '.' + loop.index0|string %}
+                                        {% else %}
+                                            {% set array_item_path = level.field_name + '.' + loop.index0|string %}
+                                        {% endif %}
                                         <div class="doc-link" style="cursor: default;">
                                             <div class="doc-header-inline">
                                                 <span class="doc-id-inline">#{{ loop.index0 }}</span>
-                                                <span class="doc-title-inline">{{ item }}</span>
+                                            </div>
+                                            <div class="doc-preview">
+                                                {% set is_number = item is number %}
+                                                <div class="field-editable"
+                                                     data-field-path="{{ array_item_path }}"
+                                                     data-field-type="{{ 'number' if is_number else 'string' }}"
+                                                     data-doc-id="{{ root_doc_id }}"
+                                                     data-table="{{ current_table }}">
+                                                    <span class="field-value-display">{{ item }}</span>
+                                                    <input type="{{ 'number' if is_number else 'text' }}"
+                                                           class="field-value-input"
+                                                           value="{{ item }}"
+                                                           step="{{ 'any' if is_number and item != item|int else '1' }}">
+                                                    <button class="btn-edit" onclick="startEdit(this)" title="Modifica">✏️</button>
+                                                    <button class="btn-save" onclick="saveEdit(this)" title="Salva">💾</button>
+                                                    <button class="btn-cancel" onclick="cancelEdit(this)" title="Annulla">❌</button>
+                                                    <span class="save-status"></span>
+                                                </div>
                                             </div>
                                         </div>
                                     {% endif %}
@@ -498,9 +523,10 @@
             padding: 2px 4px;
             border-radius: 4px;
             transition: all 0.2s;
-            opacity: 0;
+            opacity: 0.6;
         }
 
+        .field-editable .btn-edit:hover,
         .field-editable:hover .btn-edit {
             opacity: 1;
         }

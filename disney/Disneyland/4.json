@@ -1,0 +1,87 @@
+{
+  "nome": "Paperopolix",
+  "tipo": "città",
+  "descrizione": "La città natale di Paperino e della sua famiglia",
+  "paese": "Stati Uniti (Calisota)",
+  "personaggi": [
+    {
+      "id": "paperino",
+      "nome": "Paperino",
+      "specie": "Anatra",
+      "personalita": "Irritabile ma dal cuore d oro",
+      "occupazione": "Disoccupato occasionale",
+      "prima_apparizione": "1934",
+      "alleati": [
+        "Paperina",
+        "Qui Quo Qua",
+        "Paperone"
+      ],
+      "nemici": [
+        "Gastone",
+        "Rockoo"
+      ]
+    },
+    {
+      "id": "paperina",
+      "nome": "Paperina",
+      "specie": "Anatra",
+      "personalita": "Dolce ma determinata",
+      "occupazione": "Sarta",
+      "prima_apparizione": "1937",
+      "alleati": [
+        "Paperino"
+      ],
+      "nemici": [
+        "Regina dell erba amara"
+      ]
+    },
+    {
+      "id": "paperone",
+      "nome": "Paperon de Paperoni",
+      "specie": "Anatra",
+      "personalita": "Avaro ma affettuoso con i nipotini",
+      "occupazione": "Uomo più ricco del mondo",
+      "prima_apparizione": "1947",
+      "patrimonio": "5 multiplikationilioni",
+      "alleati": [
+        "Qui Quo Qua",
+        "Batta",
+        "Tabacca"
+      ],
+      "nemici": [
+        "Brigitta",
+        "Rockerduck"
+      ]
+    },
+    {
+      "id": "quiquoqua",
+      "nome": "Qui Quo Qua",
+      "specie": "Anatroccoli",
+      "personalita": "Vivaci, curiosi e combinaguai",
+      "occupazione": "Scolaretti",
+      "prima_apparizione": "1937",
+      "zio": "Paperino",
+      "zio_rico": "Paperone",
+      "squadra": "Giovani Marmotte"
+    },
+    {
+      "id": "gastone",
+      "nome": "Gastone",
+      "specie": "Anatra",
+      "personalita": "Presuntuoso, vanitoso, cattivo",
+      "occupazione": "Scocciatore professionista",
+      "prima_apparizione": "1952",
+      "interesse": "Paperina",
+      "rivale": "Paperino"
+    },
+    {
+      "id": "rockoo",
+      "nome": "Rockoo",
+      "specie": "Cane",
+      "personalita": "Malandrino, furbo, bastiancontrario",
+      "occupazione": "Bullo del quartiere",
+      "prima_apparizione": "1951",
+      "vittima_preferita": "Paperino"
+    }
+  ]
+}

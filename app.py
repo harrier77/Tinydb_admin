@@ -608,6 +608,185 @@ def api_document(table_name, doc_id):
         return jsonify(doc)
     return jsonify({'error': 'Document not found'}), 404
 
+@app.route('/api/table/<path:table_name>/doc/<doc_id>/update', methods=['POST'])
+def update_field(table_name, doc_id):
+    """Aggiorna un campo semplice (stringa o numero) in un documento"""
+    db = get_db()
+    
+    # Parse request data
+    data = request.get_json()
+    if not data:
+        return jsonify({'error': 'Dati mancanti'}), 400
+    
+    field_path = data.get('field_path')
+    value = data.get('value')
+    value_type = data.get('value_type', 'string')
+    
+    if field_path is None or value is None:
+        return jsonify({'error': 'field_path e value sono richiesti'}), 400
+    
+    # Validazione tipo
+    if value_type == 'number':
+        try:
+            # Prova a convertire in numero
+            if '.' in str(value):
+                value = float(value)
+            else:
+                value = int(value)
+        except (ValueError, TypeError):
+            return jsonify({'error': 'Il valore deve essere un numero valido'}), 400
+    else:
+        value = str(value)
+    
+    # Ottieni il documento
+    # Nota: con StringIdTable, doc_id sono stringhe (non convertire in int)
+    # Prova prima come stringa, poi come int per retrocompatibilità
+    doc_id_original = doc_id
+    
+    if isinstance(db, SplitDirectoryDB):
+        # Gestione directory splittata
+        table = db.table(table_name)
+        
+        # Prova a cercare il documento con doc_id come stringa o int
+        doc = table.get(doc_id=doc_id)
+        if not doc:
+            # Prova come int se è una stringa numerica
+            try:
+                doc_id_int = int(doc_id)
+                doc = table.get(doc_id=doc_id_int)
+            except (ValueError, TypeError):
+                pass
+        
+        if not doc:
+            return jsonify({'error': 'Documento non trovato'}), 404
+        
+        # Trova il file JSON che contiene questo documento
+        file_path = None
+        doc_index = None
+        for i, d in enumerate(table._documents):
+            # Confronta sia come stringa che come int
+            if str(d.doc_id) == str(doc_id) or d.doc_id == doc_id:
+                file_path = os.path.join(table.directory, f"{i+1}.json")
+                doc_index = i
+                break
+        
+        if not file_path or not os.path.exists(file_path):
+            return jsonify({'error': 'File documento non trovato'}), 404
+        
+        # Aggiorna il campo
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                file_data = json.load(f)
+            
+            # Naviga il path e aggiorna
+            keys = field_path.split('.')
+            current = file_data
+            
+            for key in keys[:-1]:
+                if key.isdigit():
+                    key = int(key)
+                if isinstance(current, dict) and key in current:
+                    current = current[key]
+                elif isinstance(current, list) and isinstance(key, int) and 0 <= key < len(current):
+                    current = current[key]
+                else:
+                    return jsonify({'error': f'Path non valido: {field_path}'}), 400
+            
+            # Aggiorna il valore finale
+            final_key = keys[-1]
+            if final_key.isdigit():
+                final_key = int(final_key)
+            
+            if isinstance(current, dict) and final_key in current:
+                current[final_key] = value
+            elif isinstance(current, list) and isinstance(final_key, int) and 0 <= final_key < len(current):
+                current[final_key] = value
+            else:
+                return jsonify({'error': f'Campo non trovato: {final_key}'}), 400
+            
+            # Salva il file
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(file_data, f, ensure_ascii=False, indent=2)
+            
+            # Ricarica i documenti in memoria
+            table._load_documents()
+            
+            return jsonify({'success': True, 'message': 'Campo aggiornato'})
+            
+        except Exception as e:
+            return jsonify({'error': f'Errore durante l\'aggiornamento: {str(e)}'}), 500
+    
+    else:
+        # Gestione TinyDB normale
+        table = db.table(table_name)
+        
+        # Prova a cercare il documento con doc_id come stringa o int
+        doc = table.get(doc_id=doc_id)
+        effective_doc_id = doc_id
+        if not doc:
+            # Prova come int se è una stringa numerica
+            try:
+                doc_id_int = int(doc_id)
+                doc = table.get(doc_id=doc_id_int)
+                if doc:
+                    effective_doc_id = doc_id_int
+            except (ValueError, TypeError):
+                pass
+        
+        if not doc:
+            return jsonify({'error': 'Documento non trovato'}), 404
+        
+        # Prepara l'update
+        keys = field_path.split('.')
+        
+        # Costruisci l'oggetto update per TinyDB
+        # TinyDB richiede un dizionario flat, quindi dobbiamo navigare manualmente
+        try:
+            # Carica il documento completo
+            all_docs = table.all()
+            target_doc = None
+            for d in all_docs:
+                # Confronta sia come stringa che come int
+                if str(d.doc_id) == str(effective_doc_id) or d.doc_id == effective_doc_id:
+                    target_doc = d
+                    break
+            
+            if not target_doc:
+                return jsonify({'error': 'Documento non trovato'}), 404
+            
+            # Naviga e aggiorna
+            current = target_doc
+            for key in keys[:-1]:
+                if key.isdigit():
+                    key = int(key)
+                if isinstance(current, dict) and key in current:
+                    current = current[key]
+                elif isinstance(current, list) and isinstance(key, int) and 0 <= key < len(current):
+                    current = current[key]
+                else:
+                    return jsonify({'error': f'Path non valido: {field_path}'}), 400
+            
+            # Aggiorna il valore finale
+            final_key = keys[-1]
+            if final_key.isdigit():
+                final_key = int(final_key)
+            
+            if isinstance(current, dict) and final_key in current:
+                current[final_key] = value
+            elif isinstance(current, list) and isinstance(final_key, int) and 0 <= final_key < len(current):
+                current[final_key] = value
+            else:
+                return jsonify({'error': f'Campo non trovato: {final_key}'}), 400
+            
+            # Usa TinyDB per aggiornare
+            from tinydb.operations import set
+            table.update(set(keys[0], target_doc[keys[0]]), doc_ids=[effective_doc_id])
+            
+            return jsonify({'success': True, 'message': 'Campo aggiornato'})
+            
+        except Exception as e:
+            return jsonify({'error': f'Errore durante l\'aggiornamento: {str(e)}'}), 500
+
 # Legacy routes per retrocompatibilità
 @app.route('/table/<path:table_name>')
 def view_table(table_name):

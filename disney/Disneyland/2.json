@@ -1,0 +1,9 @@
+{
+  "nome": "Fantasyland",
+  "tipo": "area",
+  "descrizione": "Il regno delle fiabe e della magia",
+  "attrazioni_principali": [
+    "Castello della Bella Addormentata",
+    "Peter Pan"
+  ]
+}

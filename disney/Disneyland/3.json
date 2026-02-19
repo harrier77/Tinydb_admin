@@ -1,0 +1,9 @@
+{
+  "nome": "Adventureland",
+  "tipo": "area",
+  "descrizione": "Terre esotiche e avventure tropicali",
+  "attrazioni_principali": [
+    "Pirati dei Caraibi",
+    "Indiana Jones"
+  ]
+}

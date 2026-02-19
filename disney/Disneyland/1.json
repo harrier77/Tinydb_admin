@@ -1,0 +1,9 @@
+{
+  "nome": "Main Street",
+  "tipo": "area",
+  "descrizione": "La via principale della America di fine 800",
+  "attrazioni_principali": [
+    "Treno Disney",
+    "Teatro Town Square"
+  ]
+}

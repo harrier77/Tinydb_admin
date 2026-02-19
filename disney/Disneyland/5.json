@@ -1,0 +1,68 @@
+{
+  "nome": "Topolinia",
+  "tipo": "città",
+  "descrizione": "La città dove vivono Topolino e i suoi amici",
+  "paese": "Stati Uniti (Mouseton)",
+  "personaggi": [
+    {
+      "id": "topolino",
+      "nome": "Topolino",
+      "specie": "Topo",
+      "personalita": "Allegra, ottimista, coraggiosa",
+      "occupazione": "Tutto fare",
+      "prima_apparizione": "1928",
+      "fidanazata": "Minnie",
+      "amico_migliore": "Pippo",
+      "mascotte_disney": true
+    },
+    {
+      "id": "minnie",
+      "nome": "Minnie",
+      "specie": "Topa",
+      "personalita": "Dolce, elegante, creativa",
+      "occupazione": "Maestra di musica",
+      "prima_apparizione": "1928",
+      "fidanazato": "Topolino",
+      "passione": "Fiori e musica"
+    },
+    {
+      "id": "pippo",
+      "nome": "Pippo",
+      "specie": "Cane",
+      "personalita": "Goofy, maldestro, buon cuore",
+      "occupazione": "Disoccupato felice",
+      "prima_apparizione": "1932",
+      "amico_migliore": "Topolino",
+      "frase_famosa": "Gawrsh!"
+    },
+    {
+      "id": "pluto",
+      "nome": "Pluto",
+      "specie": "Cane",
+      "personalita": "Fedele, giocherellone, vivace",
+      "occupazione": "Cane da compagnia di Topolino",
+      "prima_apparizione": "1930",
+      "padrone": "Topolino",
+      "nemico_giurato": "Gatto Butch"
+    },
+    {
+      "id": "clarabella",
+      "nome": "Clarabella",
+      "specie": "Mucca",
+      "personalita": "Pomposa, elegante, pettegola",
+      "occupazione": "Socialite",
+      "prima_apparizione": "1928",
+      "interesse_romantico": "Pippo"
+    },
+    {
+      "id": "cicoe",
+      "nome": "Cico e Cico",
+      "specie": "Scoiattoli",
+      "personalita": "Combinaguai, golosi, vivaci",
+      "occupazione": "Troublemakers",
+      "prima_apparizione": "1943",
+      "amati": "Noci e noccioline",
+      "frase_famosa": "Cico!"
+    }
+  ]
+}

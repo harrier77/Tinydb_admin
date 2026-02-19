@@ -165,6 +165,7 @@ def browse(path):
     current_doc_id = None
     current_doc = None
     root_doc_id = None
+    root_doc = None
     documents = []
     nested_levels = []
     table = None
@@ -186,8 +187,9 @@ def browse(path):
             
             current_doc = table.get(doc_id=current_doc_id)
             
-            # Salva l'ID del documento root per costruire URL corretti
+            # Salva l'ID e il documento root per costruire URL corretti e navigare gli array
             root_doc_id = current_doc_id
+            root_doc = current_doc
             
             # Controlla se è richiesto un elemento di un array (supporta array annidati)
             if current_doc and isinstance(current_doc, dict) and len(parts) >= 5:
@@ -233,6 +235,9 @@ def browse(path):
                             break
                     else:
                         break
+                
+                # Salva il documento root originale prima di aggiornare current_doc
+                root_doc = current_doc
                 
                 # Aggiorna current_doc all'elemento array più interno per mostrarne i campi
                 if nested_levels:
@@ -366,9 +371,16 @@ def browse(path):
             try:
                 item_index = int(parts[-1])
                 item_parent_name = prev_part
-                # Estrai l'array completo dal documento
-                if current_doc and isinstance(current_doc, dict):
-                    current_array = current_doc.get(item_parent_name)
+            # Estrai l'array completo dal documento root originale (non da current_doc che è già l'elemento)
+                if root_doc and isinstance(root_doc, dict):
+                    # Cerca l'array nel documento root, navigando attraverso i livelli annidati se necessario
+                    if nested_levels and len(nested_levels) > 1:
+                        # Se ci sono livelli intermedi, l'array è nell'ultimo livello nested (parent dell'elemento corrente)
+                        parent_level = nested_levels[-2]  # Il parent dell'elemento corrente
+                        current_array = parent_level['document'].get(item_parent_name)
+                    else:
+                        # Altrimenti l'array è direttamente nel documento root
+                        current_array = root_doc.get(item_parent_name)
                     current_array_name = item_parent_name
             except (ValueError, IndexError):
                 is_array_item = False

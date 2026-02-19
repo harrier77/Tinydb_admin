@@ -415,7 +415,7 @@
             }
         }
         
-        // Auto-collassa i sidebar in base al numero di pannelli effettivamente visibili
+        // Auto-ridimensiona i pannelli in base al numero visibile
         window.addEventListener('DOMContentLoaded', function() {
             const hasArrayItem = {{ 'true' if is_array_item else 'false' }};
             const hasCurrentArray = {{ 'true' if current_array else 'false' }};
@@ -426,55 +426,56 @@
             // Il pannello array item viene mostrato SOLO se is_array_item E current_array esistono
             const showArrayPanel = hasArrayItem && hasCurrentArray;
             
-            // VERIFICA se current_doc è un elemento di array (controlla se è uguale all'ultimo nested level)
+            // VERIFICA se current_doc è un elemento di array
             const lastNestedDoc = {{ 'true' if nested_levels and nested_levels[-1].type == "array_document" else 'false' }};
             const currentDocIsArrayItem = hasCurrentDoc && lastNestedDoc;
             
-            // Conta i pannelli effettivamente visibili:
-            // 1. sidebar principale (sempre)
-            // 2. pannello tabella (se current_table)
-            // 3. pannello array item (se showArrayPanel - mostra lista array)
-            // 4. pannello documento/current (se hasCurrentDoc E NON è un elemento array, altrimenti è già nei nested)
-            // 5. nested levels (solo l'ultimo - mostra il documento array finale)
+            // Conta i pannelli effettivamente visibili
             let panelCount = 1; // sidebar principale
             if (hasCurrentTable) panelCount++; // tabella
             if (showArrayPanel) panelCount++;  // lista array
             if (hasCurrentDoc && !currentDocIsArrayItem) panelCount++; // documento normale
             if (nestedLevelsCount > 0) panelCount++; // documento array finale
             
-            // DEBUG specifico
-            console.log('=== PANEL DEBUG ===');
-            console.log('URL:', window.location.pathname);
-            console.log('hasCurrentTable:', hasCurrentTable);
-            console.log('hasCurrentDoc:', hasCurrentDoc);
-            console.log('lastNestedDoc:', lastNestedDoc);
-            console.log('currentDocIsArrayItem:', currentDocIsArrayItem);
-            console.log('showArrayPanel:', showArrayPanel);
-            console.log('nestedLevelsCount:', nestedLevelsCount);
-            console.log('Calculated panelCount:', panelCount);
-            
             // Conta pannelli visibili reali nel DOM
             const visiblePanels = document.querySelectorAll('.panel:not([style*="display: none"])');
-            console.log('Actual visible panels in DOM:', visiblePanels.length);
-            console.log('===================');
-            
-            // Usa il conteggio reale del DOM se disponibile, altrimenti quello calcolato
             const actualPanelCount = visiblePanels.length > 0 ? visiblePanels.length : panelCount;
             
-            // Collassa se ci sono 4+ pannelli visibili
-            const shouldCollapseSidebar = actualPanelCount >= 4;
-            const shouldCollapseMain = actualPanelCount >= 5;
+            console.log('=== PANEL RESIZE DEBUG ===');
+            console.log('URL:', window.location.pathname);
+            console.log('Panel count:', actualPanelCount);
+            console.log('===================');
             
-            if (shouldCollapseSidebar) {
-                // Collassa il primo pannello
+            // Applica classi di dimensione in base al numero di pannelli
+            // 1-3 pannelli: larghezza normale (400px)
+            // 4-5 pannelli: compatta (300px)
+            // 6+ pannelli: stretta (240px)
+            // 8+ pannelli: ultra-stretta (200px)
+            let sizeClass = '';
+            if (actualPanelCount >= 8) {
+                sizeClass = 'panel-ultra-narrow';
+            } else if (actualPanelCount >= 6) {
+                sizeClass = 'panel-narrow';
+            } else if (actualPanelCount >= 4) {
+                sizeClass = 'panel-compact';
+            }
+            
+            // Applica la classe a tutti i pannelli
+            if (sizeClass) {
+                visiblePanels.forEach(function(panel) {
+                    panel.classList.add(sizeClass);
+                });
+            }
+            
+            // Collassa sidebar se ci sono molti pannelli
+            if (actualPanelCount >= 5) {
                 const sidebarPanel = document.getElementById('sidebar-panel');
                 if (sidebarPanel && !sidebarPanel.classList.contains('collapsed')) {
                     toggleSidebar();
                 }
             }
             
-            if (shouldCollapseMain) {
-                // Collassa anche la sidebar principale
+            if (actualPanelCount >= 7) {
                 const mainSidebar = document.getElementById('main-sidebar');
                 if (mainSidebar && !mainSidebar.classList.contains('collapsed')) {
                     toggleMainSidebar();

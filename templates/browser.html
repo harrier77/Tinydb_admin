@@ -112,9 +112,27 @@
                 
                 <!-- Lista campi cliccabili del documento -->
                 <div class="subcollections">
-                    <div class="field-label">Campi ({{ current_doc|length }})</div>
+                    {% set visible_fields = current_doc.items() | list %}
+                    {% set total_fields = visible_fields | length %}
+                    {% if current_doc._is_array_file and 'items' in current_doc %}
+                        {% set total_fields = 1 %}
+                    {% endif %}
+                    <div class="field-label">Campi ({{ total_fields }})</div>
                     <ul class="doc-list field-list" style="margin-bottom: 20px;">
+                        {% if current_doc._is_array_file and 'items' in current_doc %}
+                        <!-- File JSON array: mostra solo 'items' come sottocollezione -->
+                        <li class="doc-item">
+                            <a href="/browse/{{ current_table }}/doc/{{ current_doc_id }}/field/items" class="doc-link">
+                                <div class="doc-header-inline">
+                                    <span class="doc-icon" style="color: #d32f2f; font-weight: bold;">📋</span>
+                                    <span class="doc-title-inline" style="font-weight: 700; color: #202124;">items</span>
+                                </div>
+                                <div class="doc-preview" style="font-weight: 600; color: #d32f2f;">Array [{{ current_doc['items']|length }} elementi da {{ current_doc['_filename'] }}]</div>
+                            </a>
+                        </li>
+                        {% else %}
                         {% for field_name, field_value in current_doc.items() %}
+                        {% if field_name not in ['_is_array_file', '_filename'] %}
                         <li class="doc-item">
                             {% set field_type = field_types.get(field_name, 'simple') if field_types else 'simple' %}
                             {% if field_type == 'object' %}
@@ -148,7 +166,9 @@
                                 </div>
                             {% endif %}
                         </li>
+                        {% endif %}
                         {% endfor %}
+                        {% endif %}
                     </ul>
                 </div>
                 

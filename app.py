@@ -54,10 +54,13 @@ class SplitDirectoryTable:
                                     self._documents.append(DocumentWithId(data, doc_id, filename))
                                     doc_id += 1
                                 elif isinstance(data, list):
-                                    for item in data:
-                                        if isinstance(item, dict):
-                                            self._documents.append(DocumentWithId(item, doc_id, filename))
-                                            doc_id += 1
+                                    doc_data = {
+                                        "_is_array_file": True,
+                                        "_filename": filename,
+                                        "items": data
+                                    }
+                                    self._documents.append(DocumentWithId(doc_data, doc_id, filename))
+                                    doc_id += 1
                     except (json.JSONDecodeError, FileNotFoundError) as e:
                         print(f"Errore caricamento {file_path}: {e}")
     
@@ -86,6 +89,7 @@ class SplitDirectoryDB:
         self.root_config = self._load_root_config()
         tables_subdir = self.root_config.get('path', '')
         if tables_subdir:
+            tables_subdir = tables_subdir.replace('\\', '/')
             if tables_subdir.startswith('..'):
                 parent_dir = os.path.dirname(os.path.abspath(directory_path))
                 self.tables_path = os.path.normpath(os.path.join(parent_dir, tables_subdir))

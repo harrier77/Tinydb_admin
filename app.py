@@ -23,9 +23,10 @@ class CustomTinyDB(TinyDB):
 
 class DocumentWithId(dict):
     """Documento con attributo doc_id per compatibilità con TinyDB"""
-    def __init__(self, data, doc_id):
+    def __init__(self, data, doc_id, filename=None):
         super().__init__(data)
         self.doc_id = doc_id
+        self.filename = filename
 
 class SplitDirectoryTable:
     """Tabella che contiene tutti i documenti dalla directory splittata"""
@@ -43,18 +44,19 @@ class SplitDirectoryTable:
             for f in sorted(os.listdir(self.directory)):
                 if f.endswith('.json'):
                     file_path = os.path.join(self.directory, f)
+                    filename = os.path.splitext(f)[0]
                     try:
                         with open(file_path, 'r', encoding='utf-8') as file:
                             content = file.read().strip()
                             if content:
                                 data = json.loads(content)
                                 if isinstance(data, dict):
-                                    self._documents.append(DocumentWithId(data, doc_id))
+                                    self._documents.append(DocumentWithId(data, doc_id, filename))
                                     doc_id += 1
                                 elif isinstance(data, list):
                                     for item in data:
                                         if isinstance(item, dict):
-                                            self._documents.append(DocumentWithId(item, doc_id))
+                                            self._documents.append(DocumentWithId(item, doc_id, filename))
                                             doc_id += 1
                     except (json.JSONDecodeError, FileNotFoundError) as e:
                         print(f"Errore caricamento {file_path}: {e}")
@@ -676,7 +678,11 @@ def update_field(table_name, doc_id):
         for i, d in enumerate(table._documents):
             # Confronta sia come stringa che come int
             if str(d.doc_id) == str(doc_id) or d.doc_id == doc_id:
-                file_path = os.path.join(table.directory, f"{i+1}.json")
+                # Usa il filename memorizzato nel documento
+                if d.filename:
+                    file_path = os.path.join(table.directory, f"{d.filename}.json")
+                else:
+                    file_path = os.path.join(table.directory, f"{i+1}.json")
                 doc_index = i
                 break
         
@@ -688,9 +694,20 @@ def update_field(table_name, doc_id):
             with open(file_path, 'r', encoding='utf-8') as f:
                 file_data = json.load(f)
             
+            # Se file_data è una lista, determina quale elemento modificare
+            target_doc = file_data
+            doc_index_for_array = None
+            if isinstance(file_data, list):
+                # Il doc_id è l'indice nella lista (1-based)
+                doc_index_for_array = int(doc_id) - 1
+                if 0 <= doc_index_for_array < len(file_data):
+                    target_doc = file_data[doc_index_for_array]
+                else:
+                    return jsonify({'error': 'Indice documento non valido'}), 404
+            
             # Naviga il path e aggiorna
             keys = field_path.split('.')
-            current = file_data
+            current = target_doc
             
             for key in keys[:-1]:
                 if key.isdigit():

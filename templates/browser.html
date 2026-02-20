@@ -60,7 +60,7 @@
                                     <span class="doc-icon">📄</span>
                                     <span class="doc-id-inline">{{ doc.doc_id }}</span>
                                 {% endif %}
-                                <span class="doc-title-inline">{{ doc.nome if doc.nome else doc._id }}</span>
+                                <span class="doc-title-inline">{{ doc.nome if doc.nome else (doc.filename if doc.filename else doc._id) }}</span>
                             </div>
                             <div class="doc-preview">{{ doc|tojson|truncate(100) }}</div>
                         </a>

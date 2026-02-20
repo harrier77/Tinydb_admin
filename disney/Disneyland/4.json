@@ -1,5 +1,5 @@
 {
-  "nome": "Paperopolix",
+  "nome": "Paperopoli",
   "tipo": "città",
   "descrizione": "La città natale di Paperino e della sua famiglia",
   "paese": "Stati Uniti (Calisota)",
@@ -7,12 +7,12 @@
     {
       "id": "paperino",
       "nome": "Paperino",
-      "specie": "Anatra",
+      "specie": "AnatraX",
       "personalita": "Irritabile ma dal cuore d oro",
       "occupazione": "Disoccupato occasionale",
       "prima_apparizione": "1934",
       "alleati": [
-        "Paperina",
+        "PaperinaX",
         "Qui Quo Qua",
         "Paperone"
       ],

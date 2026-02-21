@@ -126,13 +126,54 @@ app.secret_key = os.urandom(24)
 def tojson_pretty(value):
     return json.dumps(value, indent=2, ensure_ascii=False)
 
+def is_pointer_file(file_path):
+    """Verifica se un file JSON è un pointer e ritorna il target path"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Caso 1: {"_db_pointer": true, "target": "..."}
+        if isinstance(data, dict) and data.get('_db_pointer') is True:
+            return data.get('target')
+        
+        # Caso 2: il file contiene solo una stringa (il path diretto)
+        if isinstance(data, str):
+            return data
+            
+        return None
+    except (json.JSONDecodeError, FileNotFoundError, UnicodeDecodeError):
+        return None
+
+def resolve_db_path(target_path, base_path=None):
+    """Risolve il path del database target, gestendo path relativi"""
+    if not target_path:
+        return None
+    
+    if base_path is None:
+        base_path = os.getcwd()
+    
+    # Converti in path assoluto
+    if os.path.isabs(target_path):
+        resolved = target_path
+    else:
+        # Risolve path relativi rispetto alla directory del file pointer
+        base_dir = os.path.dirname(base_path)
+        resolved = os.path.normpath(os.path.join(base_dir, target_path))
+    
+    return resolved
+
 def get_available_databases():
-    """Ritorna la lista di tutti i file JSON e directory splittate nella directory corrente"""
+    """Ritorna la lista di tutti i file JSON, directory splittate e pointer nella directory corrente"""
     databases = []
     
     # File JSON singoli
     json_files = glob.glob('*.json')
-    databases.extend(json_files)
+    for f in json_files:
+        pointer_target = is_pointer_file(f)
+        if pointer_target:
+            databases.append(f)
+        else:
+            databases.append(f)
     
     # Directory splittate (contengono root.json)
     for item in os.listdir('.'):
@@ -144,7 +185,7 @@ def get_available_databases():
     return sorted(databases)
 
 def get_db():
-    """Restituisce l'istanza del database selezionato (file singolo o directory splittata)"""
+    """Restituisce l'istanza del database selezionato (file singolo, pointer o directory splittata)"""
     db_path = session.get('current_db', 'database.json')
     
     # Verifica se è una directory splittata
@@ -152,6 +193,14 @@ def get_db():
         root_json = os.path.join(db_path, 'root.json')
         if os.path.exists(root_json):
             return SplitDirectoryDB(db_path)
+    
+    # Verifica se è un file pointer
+    if os.path.exists(db_path):
+        pointer_target = is_pointer_file(db_path)
+        if pointer_target:
+            resolved_path = resolve_db_path(pointer_target, db_path)
+            if resolved_path and os.path.exists(resolved_path):
+                db_path = resolved_path
     
     # Altrimenti è un file singolo
     # Verifica se il file esiste e se è in formato TinyDB valido

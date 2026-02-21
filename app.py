@@ -195,17 +195,19 @@ def get_field_types(doc):
             field_types[key] = 'simple'
     return field_types
 
-def build_breadcrumb(path, current_doc=None):
+def build_breadcrumb(path, current_doc=None, first_table=None):
     """
     Costruisce la lista breadcrumb [(url, label), ...] dal path /browse/...
     Nasconde 'doc' e 'field' nei label, ma mantiene 'doc' nell'URL.
     Usa 'nome' del documento se disponibile.
     """
     if not path:
-        return [('/', 'Home')]
+        home_url = f'/browse/{first_table}' if first_table else '/'
+        return [(home_url, 'Home')]
     
     parts = path.split('/')
-    breadcrumb = [('/', 'Home')]
+    home_url = f'/browse/{first_table}' if first_table else '/'
+    breadcrumb = [(home_url, 'Home')]
     
     current_path_parts = []
     i = 0
@@ -556,7 +558,7 @@ def browse(path):
                 is_array_item = False
     
     # Genera breadcrumb con accesso al documento corrente per il nome
-    breadcrumb = build_breadcrumb(path, current_doc)
+    breadcrumb = build_breadcrumb(path, current_doc, current_table)
     
     databases = get_available_databases()
     current_db = session.get('current_db', 'database.json')

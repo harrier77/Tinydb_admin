@@ -142,7 +142,7 @@
                                         <span class="doc-icon">📂</span>
                                         <span class="doc-title-inline">{{ field_name }}</span>
                                     </div>
-                                    <div class="doc-preview">Oggetto con {{ field_value|length }} campi</div>
+                                    <div class="doc-preview">Elemento con {{ field_value|length }} campi</div>
                                 </a>
                             {% elif field_type == 'array' %}
                                 <!-- Campo è un array -->
@@ -270,7 +270,7 @@
                                             <span class="doc-icon">📂</span>
                                             <span class="doc-title-inline">{{ field_name }}</span>
                                         </div>
-                                        <div class="doc-preview">Oggetto con {{ field_value|length }} campi</div>
+                                        <div class="doc-preview">Elemento con {{ field_value|length }} campi</div>
                                     </a>
                                 {% elif field_type == 'array' %}
                                     <!-- Campo è un array -->
@@ -349,7 +349,7 @@
                                         <a href="{{ request.path }}/{{ loop.index0 }}" class="doc-link">
                                             <div class="doc-header-inline">
                                                 <span class="doc-id-inline">#{{ loop.index0 }}</span>
-                                                <span class="doc-title-inline">{{ item.nome if item.nome else (item._id if item._id else 'Oggetto') }}</span>
+                                                <span class="doc-title-inline">{{ item.nome if item.nome else (item._id if item._id else (item.nome_modello_AI if item.nome_modello_AI else 'Elemento')) }}</span>
                                             </div>
                                             <div class="doc-preview">{{ item|tojson|truncate(60) }}</div>
                                         </a>
@@ -403,7 +403,7 @@
                                             </div>
                                             <div class="doc-preview">
                                                 {% if subfield_value is mapping %}
-                                                    Oggetto con {{ subfield_value|length }} campi
+                                                    Elemento con {{ subfield_value|length }} campi
                                                 {% else %}
                                                     Array [{{ subfield_value|length }} items]
                                                 {% endif %}
